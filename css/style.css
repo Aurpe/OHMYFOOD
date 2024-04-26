@@ -1,0 +1,54 @@
+/****** General ***********/
+*{
+    font-family: "Roboto", sans-serif;
+    font-style:normal;
+}
+
+h{
+    font-family: "Shirkhand";
+}
+
+:root {
+    --main-color: #9356DC;
+    --second-color:#FF79DA;
+    --third-color: #99E2D0;
+}
+
+@media (max-width:767.98px) {
+
+    h1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 20px;
+        
+    }
+
+    .h1 .img{
+        height: 36px;
+        width: 50%;
+    }
+
+    .input-first{
+        width:100%; 
+    }
+
+    .fa-solid .fa-location-dot{
+        height:16px;
+        width:12px;
+    }
+
+    ::placeholder{
+        color: black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .input-first .location{
+        width:100%;
+        height: 50px;
+        background-color:#EAEAEA
+    }
+}
+
