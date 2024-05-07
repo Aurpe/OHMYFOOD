@@ -20,15 +20,15 @@ h{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        padding-bottom: 20px;
+       
         
     }
 
-    .h1 .img{
+    header img{
         height: 36px;
-        width: 50%;
     }
 
+    
     .input-first{
         width:100%; 
     }
@@ -40,24 +40,125 @@ h{
 
     ::placeholder{
         color: black;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        text-align: center;
+        font-size: 16px;
+        font-weight:normal;
     }
 
     .input-first .location{
         width:100%;
         height: 50px;
-        background-color:#EAEAEA
+        background-color:#EAEAEA;
+        border-top: 1px grey solid;
+        border-bottom: 1px grey solid;
+        border-right: none;
+        border-left: none;
+        box-shadow: 3px 3px 3px 3px grey;
+        
+
     }
 
-    .ContainerMenu .box{
+    .container-title{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        background-color: #F2F2F2;
+    }
+
+    
+    .container-title h2{
+    
+    width: 60%;
+
+    }
+
+
+    .container-title h3{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight:lighter;
+
+}
+    .container-title .rounded{
+        border-radius: 25px;
+        background:linear-gradient(110deg, #9356DC, #FF79DA);
+        color: white;
+        font-weight: bold;
+        height: 50px;
+        width: 50%;
+        margin: 30px;
+        font-size: 16px;
+        
+
+    }
+
+    .function{
+        padding: 20px;
+    }
+
+
+    .function .function-first{
+        background-color: #F2F2F2;
+        display: flex;
+        border-radius: 20px;
+        margin: 10px;
+        height: 72px;
+
+    }
+
+    .function .fa-solid .fa-mobile-screen-button{
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin: 15px;
+    }
+
+    .function .function-first{
+        /* display: flex; */
+        /* flex-wrap: nowrap;
+        align-items: baseline;
+        justify-content: center;
+        background-color: #F2F2F2;
+        border-radius: 15px;
+        margin:20px;
+        height:72px; */
+    }
+
+    .function .function-first p{
+        font-size:  16px;
+        font-weight:bold;
+    }
+
+    .ContainerMenu {
         display: grid;
-        grid-template-columns: 100px 100px;
-        grid-template-rows: 40px 40px;
+        grid-template-columns: 200px 50px 50px 100px;
+        grid-template-rows: 40px 40px 40px 40px;
+
+    }
+
+    .M1{
+        height:231px;
+        border-radius:27px;
+        width: 60%;
+    }
+
+    .M2{
 
     }
         
     
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        background-color: #353535;
+        color: white;
+    }
+
+    .footer .img{
+        height: 27px;
+        color: white;
+    }
 }
 
