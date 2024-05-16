@@ -41,9 +41,8 @@
 
                 <div class="CardPDG">
 
-                    <div class="cardContentPDG">
+                    <div class="CardContentPDG">
 
-                        <div class="cardContentPDG">
                         <p class="Name"> Fricassée d'ecargots</p>
                         <p class="Subtitle"> Au piment d'espelette</p>
                         <p class="Price"> 25€</p>
@@ -123,7 +122,4 @@
     
             
         </main>
-    
-</body>
-</html>
-        
+      

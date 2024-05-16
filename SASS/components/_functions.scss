@@ -1,0 +1,27 @@
+.function .function-first {
+    background-color: #F2F2F2;
+    display: flex;
+    border-radius: 20px;
+    margin: 10px;
+    height: 72px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .function .fa-solid .fa-mobile-screen-button {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 15px;
+  }
+  
+  .function .function-first p {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .function {
+    padding: 20px;
+  }
+  

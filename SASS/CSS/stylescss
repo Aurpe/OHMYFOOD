@@ -16,19 +16,17 @@ h{
 }
 
 
-.header img{
+ .h1 .img{
         height: 36px;
 
     }
 
     
-.input-first{
-        width:100%; 
-    }
 
 .fa-solid .fa-location-dot{
         height:16px;
         width:12px;
+    
     }
 
 ::placeholder{
@@ -39,7 +37,6 @@ h{
     }
 
 .input-first .location{
-        width:100%;
         height: 50px;
         background-color:#EAEAEA;
         border-top: 1px grey solid;
@@ -74,7 +71,7 @@ h{
 
 }
 
-.container-title .rounded{
+.Btnrounded{
         border-radius: 25px;
         background:linear-gradient(110deg, #9356DC, #FF79DA);
         color: white;

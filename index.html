@@ -13,7 +13,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" >
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="icones/all.css" rel="stylesheet">
-    <link href="SASS/main/main.scss" rel="stylesheet">
+    <link href="SASS/CSS/style.css" rel="stylesheet">
+
 </head>
 <body>
     <div class="main-container">
@@ -24,8 +25,8 @@
         </header>
         <main>
             <div class="input-first">
-
-                <input type="text" class="location" placeholder="Belleville,Paris">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" class="location" placeholder="Paris,Belleville">
             </div>
             <div class="container-title">
                 <h2> Réservez le menu qui vous convient</h2>
@@ -37,19 +38,19 @@
                 <h2>Fonctionnement</h2>
                 <div class="function-card">
                     <div class="function-first">
-                        <p>1</p>
+                        <span class="numberItem">1</span>
                         <i class="fa-solid fa-mobile-screen-button"></i>
                         <p> Decouvrez le restaurant</p>
                     </div>
 
                     <div class="function-first">
-                        <p>2</p>
+                        <span class="numberItem">2</span>
                         <i class="fa-solid fa-list"></i>
                         <p>Composez votre menu</p> 
                     </div>
                     
                     <div class="function-first">
-                        <p>3</p>
+                        <span class="numberItem">3</span>
                         <i class="fa-solid fa-store"></i>
                         <p>Dégustez au restaurant</p> 
                     </div>
@@ -57,20 +58,23 @@
                 </div>
             </section>
 
-            <section>
+            <section class="GridRestaurant">
 
                 <h2> Restaurants</h2>
 
                 <div class="ContainerMenu">
                     
                     <article class="MenuCard">
-                        <a href="#">
+                        <a href="Restaurants/Page 1">
 
                             <div class="Box">
                                 <div class="Pix"><img src="Images/images/restaurants/la-palette-du-gout.jpg" alt="Restaurant la palette du goût"></div>
                                 <p class= New> Nouveau</p>
                                 <div class="Emoji"><i class="fa-regular fa-heart"></i></div>
-                                <div class="TitleM"><div class="card-content"> La palette du goût</div>
+                                <div class="card-content"> 
+                                    <p>La palette du goût</p>
+                                    <p>Ménilmontant</p>
+                                </div>
 
                             </div>
 
@@ -81,13 +85,16 @@
 
 
                     <article class="MenuCard">
-                        <a href="#">
+                        <a href="Restaurants/Page 2">
 
                             <div class="Box">
-                                <div class="Pix"><img src="Images/images/restaurants/la-palette-du-gout.jpg" alt="Restaurant la palette du goût"></div>
+                                <div class="Pix"><img src="Images/images/restaurants/la-note-enchante.jpg" alt="Restaurant la note enchanté"></div>
                                 <p class= New> Nouveau</p>
                                 <div class="Emoji"><i class="fa-regular fa-heart"></i></div>
-                                <div class="TitleM"><div class="card-content"> La palette du goût</div>
+                                <div class="card-content"> 
+                                    <p>La note enchanté</p>
+                                    <p>Charonne</p>
+                                </div>
 
                             </div>
 
@@ -96,13 +103,17 @@
                     </article>
 
                     <article class="MenuCard">
-                        <a href="#">
+                        <a href="Restaurants/Page 3">
 
                             <div class="Box">
-                                <div class="Pix"><img src="Images/images/restaurants/la-palette-du-gout.jpg" alt="Restaurant la palette du goût"></div>
+                                <div class="Pix"><img src="Images/images/restaurants/a-la-francaise.jpg" alt="Restaurant A la française"></div>
                                 <p class= New> Nouveau</p>
                                 <div class="Emoji"><i class="fa-regular fa-heart"></i></div>
-                                <div class="TitleM"><div class="card-content"> La palette du goût</div>
+                                <div class="card-content">
+                                    <p> A la francaise</p>
+                                    <p>Cité Rouge</p>
+                                </div>
+                                
 
 
                             </div>
@@ -111,13 +122,16 @@
                     </article>
 
                     <article class="MenuCard">
-                        <a href="#">
+                        <a href="Restaurants/Page 4">
 
                             <div class="Box">
-                                <div class="Pix"><img src="Images/images/restaurants/la-palette-du-gout.jpg" alt="Restaurant la palette du goût"></div>
+                                <div class="Pix"><img src="Images/images/restaurants/le-delice-des-sens.jpg" alt="Restaurant le délice des sens"></div>
                                 <p class= New> Nouveau</p>
                                 <div class="Emoji"><i class="fa-regular fa-heart"></i></div>
-                                <div class="TitleM"><div class="card-content"> La palette du goût</div>
+                                <div class="card-content">
+                                     <p>Le délice des sens</p>
+                                     <p>Folie Méricourt</p>
+                                    </div>
 
                             </div>
                             
@@ -133,12 +147,18 @@
 
                 <img src="Images/images/logo/ohmyfood.png">
 
+
+            <div class="IconsFooter">
                 <i class="fa-solid fa-utensils"></i>
                 <a href=>Proposer votre restaurant</a>
-        
+
+            </div>
+             
+            <div class="IconsFooter">
                 <i class="fa-solid fa-handshake-angle"></i>
                 <a href=>Devenir partenaire</a>
-
+            </div>
+        
                 <a href=>Mentions légales</a>
                 <a href=>Contact</a>
 

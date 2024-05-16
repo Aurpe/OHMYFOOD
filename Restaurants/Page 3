@@ -40,70 +40,78 @@
                     <div class="cardContentLNE">
 
                         
-                        <p class="Name"> Tartare de thon</p>
-                        <p class="Subtitle"> Assaisonné au yuzu</p>
+                        <p class="Name"> Ravioles de foie gras</p>
+                        <p class="Subtitle"> Accompagnées de leur crème à la truffe</p>
                         <p class="Price"> 25€</p>
                     </div>
     
                    <div class="cardContentLNE">
 
-                       <p class="Name" > Bouchée de homard croustillant </p>
-                       <p class="Subtitle">Et sa farandole de petits légumes </p>
+                       <p class="Name" > Caviar osciètre </p>
+                       <p class="Subtitle">sur blini à la farine de blé noir </p>
                        <p class="Price">35€</p>
                     </div>
 
                    <div class="cardContentLNE">
 
-                       <p class="Name">Velouté de cèpes</p>
-                       <p class="Subtitle"> Aux truffes</p>
+                       <p class="Name"> Homard et espuma de potiron</p>
+                       <p class="Subtitle"> Marinés aux zestes d'orange</p>
                        <p class="Price">20€</p>
                   </div>
 
-                  <p class=PlateLNE> PLATS</p>
 
                    <div class="cardContentLNE">
 
-                       <p class="Name">Poulet rôti au herbes de provence</p>
-                       <p class="Subtitle"> Et sa crème de truffe </p>
-                       <p class="Price">40€</p>
-                   </div>
-
-
-                   <div class="cardContentLNE">
-
-                       <p class="Name"> Langouste rôtie</p> 
-                       <p class="Subtitle"> Et ses légumes de saison</p>
+                       <p class="Name"> Foie gras de canard cuit entier</p>
+                       <p class="Subtitle"> Confiture de figue et pain toasté </p>
                        <p class="Price">35€</p>
                    </div>
 
+                   <p class=PlateLNE> PLATS</p>
+
+
                    <div class="cardContentLNE">
 
-                       <p class="Name"> Côte de boeuf Angus</p>
-                       <p class="Subtitle"> Et sa purée de panais</p>
-                       <p class="Price"> 44€</p>
+                       <p class="Name"> Noix de coquilles Saint-Jacques </p> 
+                       <p class="Subtitle"> sur lit de purée de cèleri-rave</p>
+                       <p class="Price">40€</p>
                    </div>
+
+                   <div class="cardContentLNE">
+
+                       <p class="Name">Langoustine poêlée</p>
+                       <p class="Subtitle"> Purée de patate douce</p>
+                       <p class="Price"> 35€</p>
+                   </div>
+
+                   <div class="cardContentLNE">
+
+                    <p class="Name">Mijoté de queue de boeuf</p>
+                    <p class="Subtitle"> Et riz sauvage aux zetes de citron</p>
+                    <p class="Price"> 44€</p>
+                </div>
 
 
                    <p class="DessertsLNE">Desserts</p>
 
                    <div class="cardContentLNE">
 
-                       <p class="Name"> Farandole de desserts</p>
-                       <p class="Subtitle"> du chef</p>
+                       <p class="Name"> Macaron noisette et chocolat</p>
+                       <p class="Subtitle"> Glace au caramel brun et sel de Guérande</p>
                        <p class="Price">18€</p>
                    </div>
 
                    <div class="cardContentLNE">
 
-                      <p class="Name"> Crème brulée</p>
-                      <p class="Subtitle"> Revisitée</p>
+                      <p class="Name"> Baba au rhum Revisité</p>
+                      <p class="Subtitle"> avec son coulis de citron</p>
                       <p class="Price">22€</p>
                   </div>
 
                   
                   <div class="cardContentDDS">
-                      <p class="Name"> Tiramisu</p>
-                      <p class="Subtitle"> à la noisette</p>
+                      <p class="Name"> Tarte au citron meringuée</p>
+                      <p class="Subtitle"> Destruturée</p>
                       <p class="Price">23€</p>
                   </div>
 

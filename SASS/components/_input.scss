@@ -1,7 +1,18 @@
-@media (max-width:767.98px) {
+
     .input-first{
         width:100%; 
     }
+
+    .input-first{
+     background-color: #EAEAEA;
+     display: flex;
+     flex-wrap: wrap;
+     align-content: stretch;
+     align-items: baseline;
+     justify-content: center;
+
+    }
+      
 
     .fa-solid .fa-location-dot{
         height:16px;
@@ -27,4 +38,21 @@
         
 
     }
-}
+
+    ::-moz-placeholder {
+        color: black;
+        text-align: center;
+        font-size: 16px;
+        font-weight: normal;
+      }
+      
+      ::placeholder {
+        color: black;
+        text-align: center;
+        font-size: 16px;
+        font-weight: normal;
+      }
+
+    .function {
+        padding: 20px;
+      }

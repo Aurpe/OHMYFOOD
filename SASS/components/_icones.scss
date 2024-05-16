@@ -1,24 +1,17 @@
 
 .fa-solid .fa-mobile-screen-button{
-
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
-.fa-solid .fa-list {
+.fa-solid .fa-location-dot{
+    height: 16px;
+    width: 12px;
+    display:flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
 
-}
-
-.fa-solid .fa-store {
-
-}
-
-.fa-regular .fa-heart {
-
-}
-
-.fa-solid .fa-utensils {
-
-}
-
-.fa-solid .fa-handshake-angle {
-    
-}
