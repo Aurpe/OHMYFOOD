@@ -19,3 +19,40 @@
     border-radius:15px;
     background-color: #EAEAEA;
 }
+
+.PDG{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Shrikland;
+
+
+}
+
+.CardContentPDG{
+    margin: 0px;
+    border: solid 1px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    justify-items: end;
+    border-radius: 15px;
+}
+
+.p.subtitle{
+    margin-top: 1px;
+}
+
+
+.p .price{
+    font-weight:bold;
+    font-size:15px;
+}
+
+.p .name{
+    font-size:18px;
+    font-weight: medium;
+}

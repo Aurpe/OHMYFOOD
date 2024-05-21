@@ -15,12 +15,15 @@
   display: grid;
   grid-template-columns: 75% 25%;
   grid-template-rows: 75% 25%;
+  margin:18px
+
 }
 
 .Pix img {
   height: 200px;
   border-radius: 27px 27px 0px 0px;
   width: 100%;
+  object-fit: cover;
 }
 
 .Pix {
@@ -54,6 +57,8 @@
   font-weight: bold;
   height: 70px;
   z-index: 1;
+  position: relative;
+  bottom: 15px;
 }
 
 .Emoji {
