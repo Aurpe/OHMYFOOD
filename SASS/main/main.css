@@ -127,19 +127,6 @@
   box-shadow: 3px 3px 3px 3px grey;
 }
 
-::-moz-placeholder {
-  color: black;
-  text-align: center;
-  font-size: 16px;
-  font-weight: normal;
-}
-
-::placeholder {
-  color: black;
-  text-align: center;
-  font-size: 16px;
-  font-weight: normal;
-}
 
 .function {
   padding: 20px;
