@@ -13,13 +13,14 @@
 
 .Box {
   display: grid;
-  grid-template-columns: 200px 100px;
-  grid-template-rows: 200px 100px;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 75% 25%;
 }
 
 .Pix img {
   height: 200px;
   border-radius: 27px 27px 0px 0px;
+  width: 100%;
 }
 
 .Pix {
@@ -156,6 +157,7 @@ footer {
   color: white;
 }
 
+******** Restaurant la palette du gout************* 
 .header .img {
   height: 36px;
 }
