@@ -1,6 +1,6 @@
 .BtnRounded {
   border-radius: 25px;
-  background: linear-gradient(110deg, #9356DC, #FF79DA);
+  background: linear-gradient(358deg, #9356DC, #FF79DA);
   color: white;
   font-weight: bold;
   height: 50px;
@@ -57,6 +57,9 @@
   font-weight: bold;
   height: 70px;
   z-index: 1;
+  position: relative;
+  bottom: 15px;
+  padding: 5px;
 }
 
 .Emoji {
@@ -75,6 +78,24 @@
 
 a {
   text-decoration: none;
+}
+
+.FirstTitle {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 2px;
+}
+
+.SecondTitle {
+  font-weight: lighter;
+  font-size: 17px;
+  margin: 1px;
+}
+
+.fa-regular .fa-heart {
+  height: 21px;
+  width: 100%;
+  font-weight: lighter;
 }
 
 .fa-solid .fa-mobile-screen-button {
@@ -108,6 +129,9 @@ a {
 .fa-solid .fa-location-dot {
   height: 16px;
   width: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 ::-moz-placeholder {
@@ -125,14 +149,11 @@ a {
 }
 
 .input-first .location {
-  width: 100%;
-  height: 50px;
   background-color: #EAEAEA;
+  height: 50px;
   border-top: 1px grey solid;
   border-bottom: 1px grey solid;
-  border-right: none;
-  border-left: none;
-  box-shadow: 3px 3px 3px 3px grey;
+  border: none;
 }
 
 ::-moz-placeholder {
@@ -155,6 +176,14 @@ a {
 
 .header {
   height: 36px;
+}
+
+h1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
 }
 
 footer {
@@ -259,7 +288,6 @@ footer {
 
 * {
   font-family: "Roboto", sans-serif;
-  font-family: "Shirkhand";
   font-style: normal;
 }
 

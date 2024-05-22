@@ -15,9 +15,15 @@
       
 
     .fa-solid .fa-location-dot{
-        height:16px;
-        width:12px;
+
+            height: 16px;
+            width: 12px;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+          
     }
+    
 
     ::placeholder{
         color: black;
@@ -27,25 +33,13 @@
     }
 
     .input-first .location{
-        width:100%;
+        background-color: #EAEAEA;
         height: 50px;
-        background-color:#EAEAEA;
         border-top: 1px grey solid;
         border-bottom: 1px grey solid;
-        border-right: none;
-        border-left: none;
-        box-shadow: 3px 3px 3px 3px grey;
+        border:none;
         
-
     }
-
-    ::-moz-placeholder {
-        color: black;
-        text-align: center;
-        font-size: 16px;
-        font-weight: normal;
-      }
-      
       ::placeholder {
         color: black;
         text-align: center;
