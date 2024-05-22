@@ -24,4 +24,22 @@
   .function {
     padding: 20px;
   }
+
+  .numberItem {
+
+    margin-left: -25px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 24px;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    background-color: #9356DC;
+    border: none;
+    font-weight: bold;
+    color: white;
+    
+}
   

@@ -15,15 +15,15 @@
   display: grid;
   grid-template-columns: 75% 25%;
   grid-template-rows: 75% 25%;
-  margin:18px
-
+  margin: 18px;
 }
 
 .Pix img {
   height: 200px;
   border-radius: 27px 27px 0px 0px;
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .Pix {
@@ -57,8 +57,6 @@
   font-weight: bold;
   height: 70px;
   z-index: 1;
-  position: relative;
-  bottom: 15px;
 }
 
 .Emoji {
@@ -66,12 +64,17 @@
   grid-row: 2;
   color: black;
   z-index: 2;
+  height: 21px;
 }
 
 .TitleM {
   border-radius: 15px;
   background-color: white;
   color: black;
+}
+
+a {
+  text-decoration: none;
 }
 
 .fa-solid .fa-mobile-screen-button {
@@ -132,9 +135,26 @@
   box-shadow: 3px 3px 3px 3px grey;
 }
 
+::-moz-placeholder {
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+::placeholder {
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+}
 
 .function {
   padding: 20px;
+}
+
+.header {
+  height: 36px;
 }
 
 footer {
@@ -147,10 +167,10 @@ footer {
 .footer .img {
   height: 27px;
   color: white;
+  width: 139px;
 }
 
-******** Restaurant la palette du gout************* 
-.header .img {
+******** Restaurant la palette du gout************* .header .img {
   height: 36px;
 }
 
@@ -167,6 +187,52 @@ footer {
   border: 1px solid;
   border-radius: 15px;
   background-color: #EAEAEA;
+}
+
+.PDG {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: Shrikland;
+}
+
+.CardContentPDG {
+  margin: 0px;
+  border: solid 1px;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
+  justify-items: end;
+  border-radius: 15px;
+}
+
+.p.subtitle {
+  margin-top: 1px;
+}
+
+.p .price {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.p .name {
+  font-size: 18px;
+  font-weight: medium;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #353535;
+  color: white;
+}
+
+.footer .img {
+  height: 27px;
+  color: white;
 }
 
 .container-title {
@@ -193,6 +259,7 @@ footer {
 
 * {
   font-family: "Roboto", sans-serif;
+  font-family: "Shirkhand";
   font-style: normal;
 }
 
@@ -235,4 +302,20 @@ h1 {
 
 .function {
   padding: 20px;
+}
+
+.numberItem {
+  margin-left: -25px;
+  border: 1px solid;
+  border-radius: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 24px;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  background-color: #9356DC;
+  border: none;
+  font-weight: bold;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
