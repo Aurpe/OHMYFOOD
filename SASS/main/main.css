@@ -11,6 +11,14 @@
   padding: 10px;
 }
 
+.BtnRounded .a:hover {
+  background: linear-gradient(158deg, #9356DC, #FF79DA);
+}
+
+.GridRestaurant {
+  padding: 20px;
+}
+
 .Box {
   display: grid;
   grid-template-columns: 75% 25%;
@@ -103,6 +111,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
+  color: grey;
 }
 
 .fa-solid .fa-location-dot {
@@ -295,6 +304,10 @@ a {
   font-size: 16px;
 }
 
+.BtnRounded .a:hover {
+  background: linear-gradient(158deg, #9356DC, #FF79DA);
+}
+
 ******** Restaurant le delice des sens********* .header {
   height: 36px;
 }
@@ -382,6 +395,10 @@ a {
   text-decoration: none;
   color: white;
   font-size: 16px;
+}
+
+.BtnRounded .a:hover {
+  background: linear-gradient(158deg, #9356DC, #FF79DA);
 }
 
 ******** Restaurant la note enchante********** .header {
@@ -473,6 +490,10 @@ a {
   font-size: 16px;
 }
 
+.BtnRounded .a:hover {
+  background: linear-gradient(158deg, #9356DC, #FF79DA);
+}
+
 ******* Restaurant ala francaise********* .header {
   height: 36px;
 }
@@ -562,6 +583,10 @@ a {
   font-size: 16px;
 }
 
+.BtnRounded .a:hover {
+  background: linear-gradient(158deg, #9356DC, #FF79DA);
+}
+
 .container-title {
   display: flex;
   flex-wrap: nowrap;
@@ -614,7 +639,7 @@ h1 {
   margin: 10px;
   height: 72px;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -635,7 +660,7 @@ h1 {
 }
 
 .numberItem {
-  margin-left: -25px;
+  margin-left: -15px;
   border: 1px solid;
   border-radius: 50%;
   display: flex;
