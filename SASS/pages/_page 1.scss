@@ -57,4 +57,14 @@
     font-weight: medium;
 }
 
-*******Bottom**************
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #353535;
+    color: white;
+  }
+  
+  .footer .img {
+    height: 27px;
+    color: white;
+  }
