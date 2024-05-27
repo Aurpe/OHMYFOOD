@@ -1,6 +1,13 @@
+
+
 .header{
-  height:36px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
+
 
 .Menu{
   background-color:red;
@@ -18,7 +25,7 @@
   margin:40px;
 }
 
-p.Appetizer {
+.Appetizer {
   margin:12px;
   font-size:18px;
 }
@@ -38,13 +45,13 @@ p.Appetizer {
   padding-right: 10px;
 }
 
-p.Subtitle{
+.Subtitle{
   margin-top: 1px;
   grid-row: 2;
 }
 
 
-p.Price{
+.Price{
   font-weight:bold;
   font-size:15px;
   grid-row: 2 / 2;
@@ -52,7 +59,7 @@ p.Price{
   
 }
 
-p.Name{
+.Name{
   font-size:18px;
   font-weight: medium;
 }
@@ -79,10 +86,4 @@ a {
 
 .BtnRounded .a:hover{
   background: linear-gradient(158deg, #9356DC, #FF79DA);
-}
-
-.Menu{
-  .entree{
-      background-color: red;
-  }
 }
