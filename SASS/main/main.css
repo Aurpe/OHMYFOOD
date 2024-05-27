@@ -215,45 +215,37 @@ a {
   font-size: 16px;
 }
 
-******** Restaurant la palette du gout************* .header {
-  height: 36px;
-}
-
-h1 {
+.header{
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin: 10px;
 }
 
-.section .MenuPDG {
-  background-color: #EAEAEA;
+
+.Menu{
+  background-color:red;
   border-radius: 15px;
 }
 
-.CardContentPDG {
-  border: 1px solid;
-  border-radius: 15px;
-  background-color: #EAEAEA;
-}
 
-.PDG {
+.TitleResto{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   font-size: 28px;
   font-weight: bold;
-  margin: 40px;
+  margin:40px;
 }
 
-.AppetizerPDG {
-  margin: 12px;
-  font-size: 18px;
+.Appetizer {
+  margin:12px;
+  font-size:18px;
 }
 
-.CardContentPDG {
+.CardContent{
   border: solid 1px white;
   display: grid;
   grid-template-rows: 50% 50%;
@@ -268,20 +260,22 @@ h1 {
   padding-right: 10px;
 }
 
-.p.subtitle {
+.Subtitle{
   margin-top: 1px;
   grid-row: 2;
 }
 
-.p .price {
-  font-weight: bold;
-  font-size: 15px;
-  grid-row: 2/2;
-  grid-column: 2/2;
+
+.Price{
+  font-weight:bold;
+  font-size:15px;
+  grid-row: 2 / 2;
+  grid-column: 2 / 2;
+  
 }
 
-.p .name {
-  font-size: 18px;
+.Name{
+  font-size:18px;
   font-weight: medium;
 }
 
@@ -289,303 +283,26 @@ footer {
   display: flex;
   flex-direction: column;
   background-color: #353535;
-  padding: 10px;
+  padding:10px;
 }
 
 footer img {
   height: 27px;
-  width: 139px;
-  color: white;
+  width:139px;
+  color:white;
+
 }
 
 a {
   text-decoration: none;
-  color: white;
-  font-size: 16px;
+  color:white;
+  font-size:16px;
 }
 
-.BtnRounded .a:hover {
+.BtnRounded .a:hover{
   background: linear-gradient(158deg, #9356DC, #FF79DA);
 }
 
-******** Restaurant le delice des sens********* .header {
-  height: 36px;
-}
-
-h1 {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
-}
-
-.section .MenuLDS {
-  background-color: #EAEAEA;
-  border-radius: 15px;
-}
-
-.CardContentLDS {
-  border: 1px solid;
-  border-radius: 15px;
-  background-color: #EAEAEA;
-}
-
-.LDS {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  font-size: 28px;
-  font-weight: bold;
-  margin: 40px;
-}
-
-.AppetizerLDS {
-  margin: 12px;
-  font-size: 18px;
-}
-
-.CardContentLDS {
-  border: solid 1px white;
-  display: grid;
-  grid-template-rows: 50% 50%;
-  grid-template-columns: 75% 25%;
-  justify-items: stretch;
-  border-radius: 15px;
-  background-color: white;
-  height: 69px;
-  align-items: end;
-  padding-left: 10px;
-  width: auto;
-  padding-right: 10px;
-}
-
-.p.subtitle {
-  margin-top: 1px;
-  grid-row: 2;
-}
-
-.p .price {
-  font-weight: bold;
-  font-size: 15px;
-  grid-row: 2/2;
-  grid-column: 2/2;
-}
-
-.p .name {
-  font-size: 18px;
-  font-weight: medium;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  background-color: #353535;
-  padding: 10px;
-}
-
-footer img {
-  height: 27px;
-  width: 139px;
-  color: white;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  font-size: 16px;
-}
-
-.BtnRounded .a:hover {
-  background: linear-gradient(158deg, #9356DC, #FF79DA);
-}
-
-******** Restaurant la note enchante********** .header {
-  height: 36px;
-}
-
-h1 {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
-}
-
-.section .MenuLNE {
-  background-color: #EAEAEA;
-  border-radius: 15px;
-}
-
-.CardContentLNE {
-  border: 1px solid;
-  border-radius: 15px;
-  background-color: #EAEAEA;
-}
-
-.LNE {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  font-size: 28px;
-  font-weight: bold;
-  margin: 40px;
-}
-
-.AppetizerLNE {
-  margin: 12px;
-  font-size: 18px;
-}
-
-.CardContentLNE {
-  border: solid 1px white;
-  display: grid;
-  grid-template-rows: 50% 50%;
-  grid-template-columns: 75% 25%;
-  justify-items: stretch;
-  border-radius: 15px;
-  background-color: white;
-  height: 69px;
-  align-items: end;
-  padding-left: 10px;
-  width: auto;
-  padding-right: 10px;
-}
-
-.p.subtitle {
-  margin-top: 1px;
-  grid-row: 2;
-}
-
-.p .price {
-  font-weight: bold;
-  font-size: 15px;
-  grid-row: 2/2;
-  grid-column: 2/2;
-}
-
-.p .name {
-  font-size: 18px;
-  font-weight: medium;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  background-color: #353535;
-  padding: 10px;
-}
-
-footer img {
-  height: 27px;
-  width: 139px;
-  color: white;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  font-size: 16px;
-}
-
-.BtnRounded .a:hover {
-  background: linear-gradient(158deg, #9356DC, #FF79DA);
-}
-
-******* Restaurant ala francaise********* .header {
-  height: 36px;
-}
-
-h1 {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
-}
-
-.section .MenuALF {
-  background-color: #EAEAEA;
-  border-radius: 15px;
-}
-
-.CardContentALF {
-  border: 1px solid;
-  border-radius: 15px;
-  background-color: #EAEAEA;
-}
-
-.ALF {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  font-size: 28px;
-  font-weight: bold;
-  margin: 40px;
-}
-
-.AppetizerALF {
-  margin: 12px;
-  font-size: 18px;
-}
-
-.CardContentALF {
-  border: solid 1px white;
-  display: grid;
-  grid-template-rows: 50% 50%;
-  grid-template-columns: 75% 25%;
-  justify-items: stretch;
-  border-radius: 15px;
-  background-color: white;
-  height: 69px;
-  align-items: end;
-  padding-left: 10px;
-  width: auto;
-  padding-right: 10px;
-}
-
-.p.subtitle {
-  margin-top: 1px;
-  grid-row: 2;
-}
-
-.p .price {
-  font-weight: bold;
-  font-size: 15px;
-  grid-row: 2/2;
-  grid-column: 2/2;
-}
-
-.p .name {
-  font-size: 18px;
-  font-weight: medium;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  background-color: #353535;
-  padding: 10px;
-}
-
-footer img {
-  height: 27px;
-  width: 139px;
-  color: white;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  font-size: 16px;
-}
-
-.BtnRounded .a:hover {
-  background: linear-gradient(158deg, #9356DC, #FF79DA);
-}
 
 .container-title {
   display: flex;
