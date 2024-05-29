@@ -1,17 +1,17 @@
 
 
-footer {
+  footer {
     display: flex;
     flex-direction: column;
     background-color: #353535;
     padding:10px;
   }
-  
-  footer img {
-    height: 27px;
-    width:139px;
-    color:white;
-  
+
+  .logo{
+    font-family: Shrikhand;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
   }
 
   a {

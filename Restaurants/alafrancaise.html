@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Menu Restaurant la palette du goût</title>
+        <title>Menu Restaurant a la française</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -19,84 +20,108 @@
         <header>
             <i class="fa-solid fa-arrow-left"></i>
             <h1>
-                <img src="Images/images/logo/ohmyfood.png" alt="logo de ohmyfood">
+                <img src="../Images/images/logo/ohmyfood.png" alt="logo de ohmyfood">
             </h1>
         </header>
         <main>
-            <img src="./../Images/images/restaurants/la-palette-du-gout.jpg" alt="">
+            <img src="./../Images/images/restaurants/a-la-francaise.jpg" alt="Image à la francaise" class="ImgResto">
             <section class="Menu">
-                <div class="titleResto">
+                <div class="TitleResto">
                     <p>La palette du goût</p>
                     <i class="fa-regular fa-heart"></i>
                 </div>
                 <div class="entrees">
                     <p class="Appetizer">ENTREES</p>
                     <div class="CardContent">
-                        <p class="Name"> Fricassée d'escargots</p>
-                        <p class="Price"> 25€</p>
-                        <p class="Subtitle"> Au piment d'espelette</p>
+                        <div class="NS">
+                            <p class="Name"> Fricassée d'escargots</p>
+                            <p class="Subtitle"> Au piment d'espelette</p>
+                        </div>
+                            <p class="Price"> 25€</p>
                     </div>
-                    <div class="cardContent">
-                        <p class="Name" >Foie gras de canard mi-cuit </p>
+                    <div class="CardContent">
+                        <div class="NS">
+                            <p class="Name" >Foie gras de canard mi-cuit </p>
+                            <p class="Subtitle">Et ses copeaux de truffe noire </p>
+                        </div>
                         <p class="Price">35€</p>
-                        <p class="Subtitle">Et ses copeaux de truffe noire </p>
                     </div>
-                    <div class="cardContent">
-                        <p class="Name">Oeuf au plat</p>
+                    <div class="CardContent">
+                        <div class="NS">
+                            <p class="Name">Oeuf au plat</p>
+                            <p class="Subtitle"> à la truffe sur lit de caviar </p>
+                        </div>
                         <p class="Price">20€</p>
-                        <p class="Subtitle"> à la truffe sur lit de caviar </p>
                     </div>
                 </div>
                 <div class="plat">
-                    <p class="Appetizer"> ENTREES </p>
+                    <p class="Appetizer">PLATS</p>
                     <div class="CardContent">
-                        <p class="Name"> Fricassée d'escargots</p>
+                        <div class="NS">
+                            <p class="Name"> Fricassée d'escargots</p>
+                            <p class="Subtitle"> Au piment d'espelette</p>
+                        </div>
                         <p class="Price"> 25€</p>
-                        <p class="Subtitle"> Au piment d'espelette</p>
                     </div>
-                    <div class="cardContent">
-                        <p class="Name" >Foie gras de canard mi-cuit </p>
+                    <div class="CardContent">
+                        <div class="NS">
+                            <p class="Name" >Foie gras de canard mi-cuit </p>
+                            <p class="Subtitle">Et ses copeaux de truffe noire </p>
+                        </div>
                         <p class="Price">35€</p>
-                        <p class="Subtitle">Et ses copeaux de truffe noire </p>
                     </div>
-                    <div class="cardContent">
-                        <p class="Name">Oeuf au plat</p>
+                    <div class="CardContent">
+                        <div class="NS">
+                            <p class="Name">Oeuf au plat</p>
+                            <p class="Subtitle"> à la truffe sur lit de caviar </p>
+                        </div>
                         <p class="Price">20€</p>
-                        <p class="Subtitle"> à la truffe sur lit de caviar </p>
                     </div>
                 </div>
-                <div class="dessert">
-                    <p class="Appetizer"> ENTREES </p>
+                <div class="Desserts">
+                    <p class="Appetizer"> DESSERTS </p>
                     <div class="CardContent">
-                        <p class="Name"> Fricassée d'escargots</p>
+                        <div class="NS">
+                            <p class="Name"> Fricassée d'escargots</p>
+                            <p class="Subtitle"> Au piment d'espelette</p>
+                        </div>
                         <p class="Price"> 25€</p>
-                        <p class="Subtitle"> Au piment d'espelette</p>
                     </div>
-                    <div class="cardContent">
-                        <p class="Name" >Foie gras de canard mi-cuit </p>
+                    <div class="CardContent">
+                        <div class="NS">
+                            <p class="Name" >Foie gras de canard mi-cuit </p>
+                            <p class="Subtitle">Et ses copeaux de truffe noire </p>
+                        </div>
                         <p class="Price">35€</p>
-                        <p class="Subtitle">Et ses copeaux de truffe noire </p>
                     </div>
-                    <div class="cardContent">
-                        <p class="Name">Oeuf au plat</p>
+                    <div class="CardContent">
+                        <div class="NS">
+                            <p class="Name">Oeuf au plat</p>
+                            <p class="Subtitle"> à la truffe sur lit de caviar </p>
+                        </div>
                         <p class="Price">20€</p>
-                        <p class="Subtitle"> à la truffe sur lit de caviar </p>
                     </div>
+
+                    <button class="BtnRounded">
+                        <a href="#">
+                            Commander
+                        </a>
+                    </button>
                 </div>
             </section>
         </main>
         <footer>
-            <img src="Images/images/logo/ohmyfood.png">
+            <p class="logo">ohmyfood</p>
             <div class="IconsFooter">
                 <i class="fa-solid fa-utensils"></i>
-                <a href=>Proposer votre restaurant</a>
+                <a href=#>Proposer votre restaurant</a>
             </div>
             <div class="IconsFooter">
                 <i class="fa-solid fa-handshake-angle"></i>
-                <a href=>Devenir partenaire</a>
+                <a href="#">Devenir partenaire</a>
             </div>
-            <a href=>Mentions légales</a>
-            <a href=>Contact</a>
+            <a href="#">Mentions légales</a>
+            <a href="#">Contact</a>
         </footer>
 
 
