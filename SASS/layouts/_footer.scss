@@ -20,8 +20,31 @@
     color:white;
     font-size:16px;
   }
+
+  .logo2{
+    display:none;
+  }
+  
  /****** Media queries ***********/
  @media(max-width:1440px){
+
+  footer{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content:center;
+  }
+
+  .logo{
+    display:none;
+  }
+
+  .logo2{
+    font-family: Shrikhand;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+  }
 }
   
 

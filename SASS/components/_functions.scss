@@ -47,6 +47,21 @@
 
 
   .function-card{
-    
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
   }
+
+  .function-first{
+    display:flex;
+    align-items: center; 
+  }
+  
+  .function-first p{
+    margin-right: 50px;
+    margin-left: 30px;
+  }
+
+
+
 }

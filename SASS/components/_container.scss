@@ -22,4 +22,14 @@
 
    /****** Media queries ***********/
    @media(max-width:1440px){
+
+    .ContainerMenu{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    align-items: center;
+    }
+
+
+
   }
