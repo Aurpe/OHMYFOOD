@@ -74,12 +74,26 @@
   padding: 5px;
 }
 
-.Emoji {
+.Emoji{
   grid-column: 2;
   grid-row: 2;
+  z-index:2;
+  
+}
+.Emoji i {
   color: black;
-  z-index: 2;
-  height: 21px;
+  font-size: 25px;
+  position: relative;
+  
+}
+
+.Emoji.fa-heart {
+  color: transparent;
+  -webkit-text-stroke: 2px #9356DC ;
+  transition: color 0.5s ease;
+}
+.Emoji:hover .fa-heart{
+  color:#9356DC;
 }
 
 .TitleM {
@@ -420,13 +434,15 @@ h1 {
   font-weight: bold;
   color: white;
 
+/****** Media queries ***********/
+  @media(max-width:1440px){
 
-  @media (max-width:1440px){
+   
 
-    .function-card{
-      display: flex;
-    justify-content: space-between;
-    }
+
+
+  
+    
 
     .function-first{
 

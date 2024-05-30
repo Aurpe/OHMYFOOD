@@ -1,96 +1,109 @@
-.GridRestaurant{
-  padding:20px;
+.GridRestaurant {
+  padding: 20px;
+  background-color:#F6F6F6;
 }
 
-.Box{
-    display: grid;
-    grid-template-columns: 75% 25%;
-    grid-template-rows: 75% 25%;
-    margin:18px;
-    background-color: white;
-    border-radius: 27px;
-  }
+.Box {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 75% 25%;
+  margin: 18px;
+}
+
+.Pix img {
+  height: 200px;
+  border-radius: 27px 27px 0px 0px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Pix {
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
 
 
-  .Pix img {
-    height: 200px;
-    border-radius: 27px 27px 0px 0px;
-    width:100%;
-    object-fit: cover;
-    
-  }
+.New {
+  border: solid 1px;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #99E2D0;
+  font-weight: 500;
+  height: 29px;
+  color: #008766;
+  display: block;
+  grid-row: 1;
+  grid-column: 2/3;
+  width: 80%;
+  padding: 3px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.Card{
+  grid-row: 2/3;
+  grid-column: 1/3;
+  border: 1px solid white;
+  border-radius: 0px 0px 15px 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  height: 70px;
+  z-index: 1;
+  position: relative;
+  bottom: 15px;
+  padding: 5px;
+}
+
+
+.Emoji{
+  grid-column: 2;
+  grid-row: 2;
+  z-index:2;
   
-  .Pix {
-    grid-column: 1/3;
-    grid-row: 1/2;
-  }
+}
+.Emoji i {
+  color: black;
+  font-size: 25px;
+  position: relative;
+  
+}
 
-   .New {
+.Emoji.fa-heart {
+  color: transparent;
+  -webkit-text-stroke: 2px #9356DC ;
+  transition: color 0.5s ease;
+}
+.Emoji:hover .fa-heart{
+  color:#9356DC;
+}
 
-    border: solid 1px;
-    font-weight: bold;
-    font-size: 14px;
-    background-color: #99E2D0;
-    font-weight: bold;
-    opacity: 0.45;
-    height: 29px;
-    color: #008766;
-    display: block;
-    grid-row: 1;
-    grid-column: 2 / 3;
-    width:60%;
-    padding:3px;
-    text-align:center;
-    
-    }
-    
-    .card-content{
-      grid-row: 2 / 3;
-      grid-column: 1 / 2;
-      color: black;
-      font-weight: bold;
-      height: 70px;
-      z-index: 1;
-      position: relative;
-      bottom:15px;
-      padding: 5px;
-      
-    }
+.TitleM {
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+}
 
-    .Emoji{
-        grid-column: 2;
-        grid-row: 2;
-      }
-      .Emoji i {
-        color: black;
-        font-size: 25px;
+a {
+  text-decoration: none;
+}
 
-      }
-      .TitleM {
-        border-radius: 15px;
-        background-color: white;
-        color: black;
-      }
+.FirstTitle {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 2px;
+}
 
-      a{
-        text-decoration:none
-      }
+.SecondTitle {
+  font-weight: lighter;
+  font-size: 17px;
+  margin: 1px;
+}
 
-      .FirstTitle {
-        font-weight: bold;
-        font-size: 18px;
-        margin:2px;
-      }
-
-      .SecondTitle {
-        font-weight: lighter;
-        font-size: 17px;
-        margin:1px;
-      }
-
-      .fa-regular .fa-heart{
-        height:21px;
-        width:100%;
-        font-weight: lighter;
-      }
+ /****** Media queries ***********/
+ @media(max-width:1440px){
+}
 
