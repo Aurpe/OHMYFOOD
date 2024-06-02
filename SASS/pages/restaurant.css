@@ -1,6 +1,4 @@
-
-********restaurants*********
-.header{
+******** restaurants********* .header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -8,24 +6,23 @@
   justify-content: center;
 }
 
-h1 img{
-  height:36px;
+h1 img {
+  height: 36px;
 }
 
-.ImgResto{
-  height:275px;
-  width:100%;
-  object-fit:cover;
+.ImgResto {
+  height: 275px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-
-.Menu{
-  background-color:#F6F6F6;
+.Menu {
+  background-color: #F6F6F6;
   border-radius: 15px;
 }
 
-
-.TitleResto{
+.TitleResto {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -33,16 +30,16 @@ h1 img{
   font-weight: bold;
   margin: 40px;
   justify-content: space-around;
-  font-family:Shrikhand;
+  font-family: Shrikhand;
 }
 
 .Appetizer {
-  margin:12px;
-  font-size:18px;
-  font-weight:200;
+  margin: 12px;
+  font-size: 18px;
+  font-weight: 200;
 }
 
-.CardContent{
+.CardContent {
   border: solid 1px white;
   border-radius: 15px;
   background-color: white;
@@ -57,63 +54,57 @@ h1 img{
   filter: drop-shadow(2px 4px 6px grey);
 }
 
-
-.Subtitle{
+.Subtitle {
   margin-top: 1px;
-  font-size:15px;
+  font-size: 15px;
 }
 
-
-.Price{
-  font-weight:bold;
-  font-size:15px;
-  
-  
-}
-
-.Name{
-  font-size:18px;
+.Price {
   font-weight: bold;
-  margin-bottom:1px;
+  font-size: 15px;
+}
+
+.Name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1px;
 }
 
 footer {
   display: flex;
   flex-direction: column;
   background-color: #353535;
-  padding:10px;
-  color:white;
+  padding: 10px;
+  color: white;
 }
 
 footer img {
   height: 27px;
-  width:139px;
-  color:white;
-
+  width: 139px;
+  color: white;
 }
 
-.logo{
+.logo {
   font-family: Shrikhand;
   font-weight: bold;
   font-size: 18px;
   color: white;
 }
 
-.fa-solid .fa-utensils .fa-handshake-angle{
-  color:white;
+.fa-solid .fa-utensils .fa-handshake-angle {
+  color: white;
 }
 
 a {
   text-decoration: none;
-  color:white;
-  font-size:16px;
+  color: white;
+  font-size: 16px;
 }
 
-.BtnRounded .a:hover{
+.BtnRounded .a:hover {
   background: linear-gradient(158deg, #9356DC, #FF79DA);
-  height:50px;
+  height: 50px;
 }
-
 
 .container-title {
   display: flex;
@@ -137,3 +128,4 @@ a {
   font-weight: lighter;
 }
 
+/****** Media queries ***********//*# sourceMappingURL=restaurant.css.map */
