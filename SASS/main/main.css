@@ -1,36 +1,23 @@
-* {
-  font-family: "Roboto", "Shrikhand" sans-serif;
-  font-style: normal;
+.BtnRounded {
+  border-radius: 25px;
+  background: linear-gradient(358deg, #9356DC, #FF79DA);
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  width: 65%;
+  margin: 30px;
+  font-size: 16px;
+  border: none;
+  padding: 10px;
 }
 
-body {
-  margin: 0px;
-}
-
-:root {
-  --main-color: #9356DC;
-  --second-color:#FF79DA;
-  --third-color: #99E2D0;
-}
-
-h1 img {
-  height: 36px;
-}
-
-h1 img {
-  height: 36px;
-}
-
-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
+.BtnRounded .a:hover {
+  background: linear-gradient(158deg, #9356DC, #FF79DA);
 }
 
 .GridRestaurant {
   padding: 20px;
-  background-color: #F6F6F6;
+  background-color:#F6F6F6;
 }
 
 .Box {
@@ -45,7 +32,7 @@ header {
   border-radius: 27px 27px 0px 0px;
   width: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .Pix {
@@ -72,7 +59,7 @@ header {
   flex-wrap: nowrap;
 }
 
-.Card {
+.Card{
   grid-row: 2/3;
   grid-column: 1/3;
   border: 1px solid white;
@@ -87,26 +74,26 @@ header {
   padding: 5px;
 }
 
-.Emoji {
+.Emoji{
   grid-column: 2;
   grid-row: 2;
-  z-index: 2;
+  z-index:2;
+  
 }
-
 .Emoji i {
   color: black;
   font-size: 25px;
   position: relative;
+  
 }
 
 .Emoji.fa-heart {
   color: transparent;
-  -webkit-text-stroke: 2px #9356DC;
+  -webkit-text-stroke: 2px #9356DC ;
   transition: color 0.5s ease;
 }
-
-.Emoji:hover .fa-heart {
-  color: #9356DC;
+.Emoji:hover .fa-heart{
+  color:#9356DC;
 }
 
 .TitleM {
@@ -130,6 +117,318 @@ a {
   font-size: 17px;
   margin: 1px;
 }
+
+.fa-regular .fa-heart {
+  height: 21px;
+  width: 100%;
+  font-weight: lighter;
+}
+
+.fa-solid .fa-mobile-screen-button {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  color: grey;
+}
+
+.fa-solid .fa-location-dot {
+  height: 16px;
+  width: 12px;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input-first {
+  width: 100%;
+}
+
+.input-first {
+  background-color: #EAEAEA;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  align-items: baseline;
+  justify-content: center;
+  filter: drop-shadow(3px 3px 3px grey);
+}
+
+.fa-solid .fa-location-dot {
+  height: 16px;
+  width: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+::-moz-placeholder {
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+::placeholder {
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.input-first .location {
+  background-color: #EAEAEA;
+  height: 50px;
+  border-top: 1px grey solid;
+  border-bottom: 1px grey solid;
+  border: none;
+}
+
+::-moz-placeholder {
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+::placeholder {
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.function {
+  padding: 20px;
+}
+
+.h1 .img {
+  height: 36px;
+}
+
+h1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #353535;
+  padding: 10px;
+}
+
+footer img {
+  height: 27px;
+  width: 139px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 img{
+  height:36px;
+}
+
+.ImgResto{
+  height:275px;
+  width:100%;
+  object-fit:cover;
+}
+
+.Menu{
+  background-color:#F6F6F6;
+  border-radius: 15px;
+}
+
+.TitleResto{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 40px;
+  justify-content: space-around;
+  font-family:Shrikhand;
+}
+
+.Appetizer {
+  margin:12px;
+  font-size:18px;
+  font-weight:200;
+}
+
+.CardContent{
+  border: solid 1px white;
+  border-radius: 15px;
+  background-color: white;
+  height: 69px;
+  align-items: flex-end;
+  padding-left: 10px;
+  width: auto;
+  padding-right: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  filter: drop-shadow(2px 4px 6px grey);
+}
+
+.Subtitle{
+  margin-top: 1px;
+  font-size:15px;
+}
+
+.Price{
+  font-weight:bold;
+  font-size:15px;
+  
+  
+}
+
+.Name{
+  font-size:18px;
+  font-weight: bold;
+  margin-bottom:1px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #353535;
+  padding:10px;
+  color:white;
+}
+
+footer img {
+  height: 27px;
+  width:139px;
+  color:white;
+
+}
+
+.logo{
+  font-family: Shrikhand;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+
+.fa-solid .fa-utensils .fa-handshake-angle{
+  color:white;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+  font-size:16px;
+}
+
+.BtnRounded .a:hover{
+  background: linear-gradient(158deg, #9356DC, #FF79DA);
+  height:50px;
+}
+
+.container-title {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F2F2F2;
+  padding: 10px;
+}
+
+.container-title h2 {
+  width: 70%;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+.container-title h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: lighter;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+body {
+  margin: 0px;
+}
+
+h1 {
+  font-family: "Shirkhand";
+}
+
+:root {
+  --main-color: #9356DC;
+  --second-color:#FF79DA;
+  --third-color: #99E2D0;
+}
+
+.function .function-first {
+  background-color: #F2F2F2;
+  display: flex;
+  border-radius: 20px;
+  margin: 10px;
+  height: 72px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.function .fa-solid .fa-mobile-screen-button {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 15px;
+}
+
+.function .function-first p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+.function {
+  padding: 20px;
+}
+
+.numberItem {
+  margin-left: -15px;
+  border: 1px solid;
+  border-radius: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 24px;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  background-color: #9356DC;
+  border: none;
+  font-weight: bold;
+  color: white;
+}
+
 
 
 
