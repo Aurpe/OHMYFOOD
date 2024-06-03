@@ -1,0 +1,41 @@
+@media screen and (min-width: 767px) and (max-width: 1440px) {
+
+    .BtnRounded {
+      width: 25%;
+    }
+
+    .container-title h2 .container-title h3  {
+        margin-bottom: 18px;
+  }
+
+  .Function-card{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+
+  .fa-solid .fa-mobile-screen-button .fa-solid .fa-list .fa-solid .fa-store{
+    margin-left:15px;
+  }
+
+  .function .function-first p {
+    margin-left: 15px;
+  }
+
+  .ContainerMenu{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+
+
+    .footer{
+        display:flex;
+        flex-direction: row;
+
+    }
+}
+
