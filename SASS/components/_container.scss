@@ -12,11 +12,37 @@
     font-weight:bold;
     font-size:24px;
     text-align:center;
+    margin: bottom 10px;
   }
   
   .container-title h3 {
     text-align: center;
     margin-bottom: 30px;
     font-weight: lighter;
+    margin-bottom:10px;
   }
+
+  $background-color_1: #F2F2F2;
+
+.container-title {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	align-items: center;
+	background-color: $background-color_1;
+	padding: 10px;
+	h2 {
+		width: 70%;
+		font-weight: bold;
+		font-size: 24px;
+		text-align: center;
+		margin: bottom 10px;
+	}
+	h3 {
+		text-align: center;
+		margin-bottom: 30px;
+		font-weight: lighter;
+		margin-bottom: 10px;
+	}
+}
 
