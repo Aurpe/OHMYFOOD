@@ -1,88 +1,38 @@
-
-.function .function-first {
-  background-color: #F2F2F2;
-  display: flex;
-  border-radius: 20px;
-  margin: 0 15%;
-  height: 72px;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.function .fa-solid .fa-mobile-screen-button {
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-  margin: 15px;
-}
-
-.function .function-first p {
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.function {
+.Function {
   padding: 20px;
-}
 
-.numberItem {
-
-  margin-left: -15px;
-  border: 1px solid;
-  border-radius: 50%;
-  display: flex;
-  flex-wrap: wrap;
-  width: 24px;
-  justify-content: center;
-  align-items: center;
-  height: 24px;
-  background-color: #9356DC;
-  border: none;
-  font-weight: bold;
-  color: white;
-  
-}
-
-
-.function {
-  padding: 20px;
+  .function-first, 
+  .IconsFunction, 
+  .NumberFunction {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 15px;
+  }
 
   .function-first {
     background-color: #F2F2F2;
-    display: flex;
     border-radius: 20px;
-    margin: 15px;
     height: 72px;
-    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
 
     p {
       font-size: 16px;
       font-weight: bold;
     }
-
-    .fa-solid {
-      .fa-mobile-screen-button {
-        display: flex;
-        align-items: center;
-        flex-wrap: nowrap;
-        margin: 15px;
-      }
-    }
   }
 
-  .numberItem {
+  .IconsFunction {
+    flex-wrap: nowrap;
+  }
+
+  .NumberFunction {
     margin-left: -15px;
     border: 1px solid;
     border-radius: 50%;
-    display: flex;
-    flex-wrap: wrap;
     width: 24px;
-    justify-content: center;
-    align-items: center;
     height: 24px;
+    justify-content: center;
     background-color: #9356DC;
     border: none;
     font-weight: bold;

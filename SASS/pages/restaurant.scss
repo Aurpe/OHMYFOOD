@@ -12,28 +12,33 @@ h1 img{
   height:36px;
 }
 
+.Resto{
+  height:220px;
+}
 .ImgResto{
   height:275px;
   width:100%;
   object-fit:cover;
 }
-
-
-.Menu{
-  background-color:#F6F6F6;
-  border-radius: 15px;
+.fa-regular .fa-heart{
+  margin-left:20px;
 }
 
+.Menu{
+    background-color: #F6F6F6;
+    border-radius: 47px;
+    position: relative;
+    z-index: 3;
+}
 
-.TitleResto{
+.TitleResto {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   font-size: 28px;
   font-weight: bold;
-  margin: 40px;
-  justify-content: space-around;
-  font-family:Shrikhand;
+  justify-content: center;
+  font-family: Shrikhand;
+  
 }
 
 .Appetizer {

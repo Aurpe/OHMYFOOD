@@ -13,19 +13,17 @@ body {
   --third-color: #99E2D0;
 }
 
-h1 img {
-  height: 36px;
-}
-
-h1 img {
-  height: 36px;
-}
-
-header {
+header{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px;
+  margin-top:10px;
+  height: 63px;
+
+  h1 img{
+    height:36px;
+  }
+
 }
 
 .input-first {
@@ -130,31 +128,13 @@ header {
   margin: 10px;
 }
 
-.function .function-first {
-  background-color: #F2F2F2;
-  display: flex;
-  border-radius: 20px;
-  margin: 0 15%;
-  height: 72px;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.function .fa-solid .fa-mobile-screen-button {
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-  margin: 15px;
+.function {
+  padding: 20px;
 }
 
 .function .function-first p {
   font-size: 16px;
   font-weight: bold;
-}
-
-.function {
-  padding: 20px;
 }
 
 .numberItem {
@@ -173,9 +153,6 @@ header {
   color: white;
 }
 
-.function {
-  padding: 20px;
-}
 .function .function-first {
   background-color: #F2F2F2;
   display: flex;
@@ -186,10 +163,7 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-.function .function-first p {
-  font-size: 16px;
-  font-weight: bold;
-}
+
 .function .function-first .fa-solid .fa-mobile-screen-button {
   display: flex;
   align-items: center;
@@ -217,14 +191,14 @@ header {
   background-color: #F6F6F6;
 }
 
-.Box {
+.RestaurantCard {
   display: grid;
   grid-template-columns: 75% 25%;
   grid-template-rows: 75% 25%;
   margin: 18px;
 }
 
-.Pix img {
+.ImgCard img {
   height: 200px;
   border-radius: 27px 27px 0px 0px;
   width: 100%;
@@ -232,12 +206,12 @@ header {
   object-fit: cover;
 }
 
-.Pix {
+.ImgCard {
   grid-column: 1/3;
   grid-row: 1/2;
 }
 
-.New {
+.NewCard {
   border: solid 1px;
   font-weight: bold;
   font-size: 14px;
@@ -271,27 +245,18 @@ header {
   padding: 5px;
 }
 
-.Emoji {
+.IconsHeart {
   grid-column: 2;
   grid-row: 2;
   z-index: 2;
 }
 
-.Emoji i {
+.IconsHeart i {
   color: black;
   font-size: 25px;
   position: relative;
 }
 
-.Emoji.fa-heart {
-  color: transparent;
-  -webkit-text-stroke: 2px #9356DC;
-  transition: color 0.5s ease;
-}
-
-.Emoji:hover .fa-heart {
-  color: #9356DC;
-}
 
 .TitleM {
   border-radius: 15px;
@@ -303,7 +268,7 @@ a {
   text-decoration: none;
 }
 
-.FirstTitle {
+.MainTitle {
   font-weight: bold;
   font-size: 18px;
   margin: 2px;
@@ -477,13 +442,26 @@ a {
   .container-title h2 .container-title h3 {
     margin-bottom: 18px;
   }
-  .Function-card {
-    width: 100%;
+  
+  .function-card{
     display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+
   }
+
+  .function {
+    padding-right: 180px;
+    padding-left: 180px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .function h2{
+    Margin-bottom :25px ;
+  }
+
   .fa-solid .fa-mobile-screen-button .fa-solid .fa-list .fa-solid .fa-store {
     margin-left: 15px;
   }
