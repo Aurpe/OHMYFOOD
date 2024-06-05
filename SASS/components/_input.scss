@@ -1,9 +1,7 @@
  
 
- $background-color_2:#EAEAEA;
- 
 .input-first {
-  background-color: #EAEAEA;
+  background-color:#EAEAEA;
   display: flex;
   flex-wrap: wrap;
   align-content: stretch;
@@ -15,9 +13,17 @@
 }
 
 .input-first .location {
-  background-color: #EAEAEA;
+  background-color:#EAEAEA;
   height: 50px;
   border: none;
+}
+
+.IconsInput{
+  height: 16px;
+  width: 12px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 ::placeholder {

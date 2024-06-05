@@ -27,33 +27,31 @@ header{
 }
 
 .input-first {
-  width: 100%;
-}
-
-.input-first {
   background-color: #EAEAEA;
   display: flex;
   flex-wrap: wrap;
   align-content: stretch;
-  align-items: baseline;
+  align-items: center;
   justify-content: center;
+  height:50px;
+  width:100%;
   filter: drop-shadow(3px 3px 3px grey);
 }
 
 .input-first .location {
-  background-color: #EAEAEA;
-  height: 50px;
-  border-top: 1px grey solid;
-  border-bottom: 1px grey solid;
+  background-color:#EAEAEA;
+  height: 19px;
   border: none;
 }
 
-::-moz-placeholder {
-  color: black;
-  text-align: center;
-  font-size: 16px;
-  font-weight: normal;
+.IconsInput{
+  height: 16px;
+  width: 12px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 
 ::placeholder {
   color: black;
@@ -69,19 +67,21 @@ header{
   align-items: center;
   background-color: #F2F2F2;
   padding: 10px;
-}
 
-.container-title h2 {
-  width: 70%;
-  font-weight: bold;
-  font-size: 24px;
-  text-align: center;
-}
+  h2, h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
 
-.container-title h3 {
-  text-align: center;
-  margin-bottom: 30px;
-  font-weight: lighter;
+  h2 {
+    width: 70%;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  h3 {
+    font-weight: lighter;
+  }
 }
 
 .BtnRounded {
@@ -101,76 +101,36 @@ header{
   background: linear-gradient(158deg, #9356DC, #FF79DA);
 }
 
-.fa-solid .fa-mobile-screen-button {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  color: grey;
-}
-
-.fa-solid .fa-location-dot {
-  height: 16px;
-  width: 12px;
-  display: flex;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.fa-regular .fa-heart {
-  height: 21px;
-  width: 100%;
-  font-weight: lighter;
-}
-
-.fa-solid .fa-arrow-left {
-  height: 30px;
-  margin: 10px;
-}
-
-.function {
-  padding: 20px;
-}
-
-.function .function-first p {
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.numberItem {
-  margin-left: -15px;
-  border: 1px solid;
-  border-radius: 50%;
-  display: flex;
-  flex-wrap: wrap;
-  width: 24px;
-  justify-content: center;
-  align-items: center;
-  height: 24px;
-  background-color: #9356DC;
-  border: none;
-  font-weight: bold;
-  color: white;
-}
 
 .function .function-first {
   background-color: #F2F2F2;
   display: flex;
   border-radius: 20px;
-  margin: 15px;
+  margin: 10px;
   height: 72px;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
 
-.function .function-first .fa-solid .fa-mobile-screen-button {
+.IconsFunction {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
   margin: 15px;
 }
-.function .numberItem {
+
+.function .function-first p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+.function {
+  padding: 20px;
+}
+
+.NumberFunction {
   margin-left: -15px;
   border: 1px solid;
   border-radius: 50%;
@@ -185,6 +145,7 @@ header{
   font-weight: bold;
   color: white;
 }
+
 
 .GridRestaurant {
   padding: 20px;
@@ -305,7 +266,8 @@ a {
   display: none;
 }
 
-******** restaurants********* .header {
+******** restaurants********* 
+.header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -398,8 +360,8 @@ footer img {
   color: white;
 }
 
-.fa-solid .fa-utensils .fa-handshake-angle {
-  color: white;
+.IconsFooter{
+  color:white;
 }
 
 a {
@@ -462,7 +424,7 @@ a {
     Margin-bottom :25px ;
   }
 
-  .fa-solid .fa-mobile-screen-button .fa-solid .fa-list .fa-solid .fa-store {
+  .IconsFunction {
     margin-left: 15px;
   }
   .function .function-first p {

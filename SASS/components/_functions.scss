@@ -1,41 +1,46 @@
-.Function {
-  padding: 20px;
 
-  .function-first, 
-  .IconsFunction, 
-  .NumberFunction {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 15px;
-  }
 
-  .function-first {
-    background-color: #F2F2F2;
-    border-radius: 20px;
-    height: 72px;
-    justify-content: space-between;
-
-    p {
-      font-size: 16px;
-      font-weight: bold;
-    }
-  }
-
-  .IconsFunction {
-    flex-wrap: nowrap;
-  }
-
-  .NumberFunction {
-    margin-left: -15px;
-    border: 1px solid;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    justify-content: center;
-    background-color: #9356DC;
-    border: none;
-    font-weight: bold;
-    color: white;
-  }
+.function .function-first {
+  background-color: #F2F2F2;
+  display: flex;
+  border-radius: 20px;
+  margin: 10px;
+  height: 72px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.IconsFunction {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 15px;
+}
+
+.function .function-first p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+.function {
+  padding: 20px;
+}
+
+.NumberFunction {
+  margin-left: -15px;
+  border: 1px solid;
+  border-radius: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 24px;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  background-color: #9356DC;
+  border: none;
+  font-weight: bold;
+  color: white;
+}
+
