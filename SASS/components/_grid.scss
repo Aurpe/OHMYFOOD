@@ -1,3 +1,4 @@
+
 .GridRestaurant {
   padding: 20px;
   background-color: #F6F6F6;
@@ -10,39 +11,56 @@
   margin: 18px;
 }
 
+.ImgCard img {
+  height: 200px;
+  border-radius: 27px 27px 0px 0px;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 .ImgCard {
   grid-column: 1/3;
   grid-row: 1/2;
-
-  img {
-    height: 200px;
-    border-radius: 27px 27px 0 0;
-    width: 100%;
-    object-fit: cover;
-  }
 }
 
+.IconsHeart {
+  grid-column: 2;
+  grid-row: 2;
+  z-index: 2;
+}
+
+.IconsHeart i {
+  color: black;
+  font-size: 25px;
+  position: relative;
+}
+
+
 .NewCard {
-  border: 1px solid;
-  font-weight: 500;
+  border: solid 1px;
+  font-weight: bold;
   font-size: 14px;
   background-color: #99E2D0;
-  color: #008766;
+  font-weight: 500;
   height: 29px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  color: #008766;
+  display: block;
   grid-row: 1;
   grid-column: 2/3;
   width: 80%;
   padding: 3px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
 .Card {
   grid-row: 2/3;
   grid-column: 1/3;
   border: 1px solid white;
-  border-radius: 0 0 15px 15px;
+  border-radius: 0px 0px 15px 15px;
   background-color: white;
   color: black;
   font-weight: bold;
@@ -53,24 +71,11 @@
   padding: 5px;
 }
 
-.IconsHeart {
-  grid-column: 2;
-  grid-row: 2;
-  z-index: 2;
-
-  i {
-    color: black;
-    font-size: 25px;
-    position: relative;
-  }
-}
-
 a {
   text-decoration: none;
 }
 
-.MainTitle,
-.SecondTitle {
+.MainTitle {
   font-weight: bold;
   font-size: 18px;
   margin: 2px;
@@ -81,4 +86,3 @@ a {
   font-size: 17px;
   margin: 1px;
 }
-
