@@ -1,4 +1,7 @@
 
+.function {
+  padding: 20px;
+}
 
 .function .function-first {
   background-color: #F2F2F2;
@@ -11,21 +14,10 @@
   align-items: center;
 }
 
-.IconsFunction {
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-  margin: 15px;
-}
-
 .function .function-first p {
   font-size: 16px;
   font-weight: bold;
   margin-right: 50px;
-}
-
-.function {
-  padding: 20px;
 }
 
 .NumberFunction {
@@ -43,4 +35,12 @@
   font-weight: bold;
   color: white;
 }
+
+.IconsFunction {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 15px;
+}
+
 
