@@ -13,17 +13,15 @@ body {
   --third-color: #99E2D0;
 }
 
-header{
+header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top:10px;
+  margin-top: 10px;
   height: 63px;
-
-  h1 img{
-    height:36px;
-  }
-
+}
+header h1 img {
+  height: 36px;
 }
 
 .input-first {
@@ -33,25 +31,31 @@ header{
   align-content: stretch;
   align-items: center;
   justify-content: center;
-  height:50px;
-  width:100%;
+  height: 50px;
+  width: 100%;
   filter: drop-shadow(3px 3px 3px grey);
 }
 
 .input-first .location {
-  background-color:#EAEAEA;
-  height: 19px;
+  background-color: #EAEAEA;
+  height: 50px;
   border: none;
 }
 
-.IconsInput{
+.IconsInput {
   height: 16px;
   width: 12px;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
+::-moz-placeholder {
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+}
 
 ::placeholder {
   color: black;
@@ -67,21 +71,19 @@ header{
   align-items: center;
   background-color: #F2F2F2;
   padding: 10px;
+}
 
-  h2, h3 {
-    text-align: center;
-    margin-bottom: 10px;
-  }
+.container-title h2 {
+  width: 70%;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
 
-  h2 {
-    width: 70%;
-    font-weight: bold;
-    font-size: 24px;
-  }
-
-  h3 {
-    font-weight: lighter;
-  }
+.container-title h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: lighter;
 }
 
 .BtnRounded {
@@ -101,6 +103,75 @@ header{
   background: linear-gradient(158deg, #9356DC, #FF79DA);
 }
 
+.IconsFunction {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  color: grey;
+}
+
+.IconsInput {
+  height: 16px;
+  width: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.IconsHeart {
+  height: 21px;
+  width: 100%;
+  font-weight: lighter;
+}
+
+.IconsArrow {
+  height: 30px;
+  margin: 10px;
+}
+
+.function {
+  padding: 20px;
+}
+
+.function .function-first {
+  background-color: #F2F2F2;
+  display: flex;
+  border-radius: 20px;
+  margin: 10px;
+  height: 72px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.function .function-first p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+.NumberFunction {
+  margin-left: -15px;
+  border: 1px solid;
+  border-radius: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 24px;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  background-color: #9356DC;
+  border: none;
+  font-weight: bold;
+  color: white;
+}
+
+.IconsFunction {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 15px;
+}
 
 .GridRestaurant {
   padding: 20px;
@@ -138,7 +209,6 @@ header{
   font-size: 25px;
   position: relative;
 }
-
 
 .NewCard {
   border: solid 1px;
@@ -197,48 +267,38 @@ footer {
   padding: 10px;
   color: white;
 }
-
-.logo {
+footer .IconsFooter {
+  color: white;
+}
+footer .logo {
   font-family: Shrikhand;
   font-weight: bold;
   font-size: 18px;
   color: white;
 }
-
-a {
+footer a {
   text-decoration: none;
   color: white;
   font-size: 16px;
 }
-
-.logo2 {
+footer .logo2 {
   display: none;
 }
 
-******** restaurants*********
-
-
- .header {
+******** restaurants********* .header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-
-}
-
-.IconsArrow{
-  height:30px;
 }
 
 h1 img {
   height: 36px;
 }
 
-.Resto{
-  height:220px;
-  position: relative;
-  z-index: index 1;
+.Resto {
+  height: 220px;
 }
 
 .ImgResto {
@@ -248,58 +308,30 @@ h1 img {
      object-fit: cover;
 }
 
+.fa-regular .fa-heart {
+  margin-left: 20px;
+}
+
 .Menu {
   background-color: #F6F6F6;
-  border-radius: 47px 47px 0px 0px;
-  position:relative;
-  z-index:2;
+  border-radius: 47px;
+  position: relative;
+  z-index: 3;
 }
 
 .TitleResto {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   font-size: 28px;
   font-weight: bold;
   justify-content: center;
   font-family: Shrikhand;
-  margin-bottom:40px;
 }
-
-.TitleResto p{
-  margin-right:20px;
-}
-
 
 .Appetizer {
   margin: 12px;
   font-size: 18px;
   font-weight: 200;
-}
-
-.entrees{
-  margin-bottom:40px;
-}
-
-.plat{
-  margin-bottom:40px;
-}
-
-.Desserts{
-  margin-bottom:40px;
-}
-
-.BtnRounded{
-  margin-bottom:40px;
-}
-
-.Btn{
-  display: flex;
-  justify-content: center;
-}
-
-.IconsArrow{
-  height:30px;
 }
 
 .CardContent {
@@ -366,6 +398,7 @@ a {
 
 .BtnRounded .a:hover {
   background: linear-gradient(158deg, #9356DC, #FF79DA);
+  height: 50px;
 }
 
 .container-title {
@@ -388,36 +421,26 @@ a {
   text-align: center;
   margin-bottom: 30px;
   font-weight: lighter;
-}/*# sourceMappingURL=restaurant.css.map */
+}
 
 @media screen and (min-width: 767px) and (max-width: 1440px) {
+  header {
+    height: 96px;
+  }
   .BtnRounded {
     width: 25%;
   }
   .container-title h2 .container-title h3 {
     margin-bottom: 18px;
   }
-  
-  .function-card{
+  .function-card {
+    width: 100%;
     display: flex;
+    flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-
+    justify-content: space-around;
   }
-
-  .function {
-    padding-right: 180px;
-    padding-left: 180px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  .function h2{
-    Margin-bottom :25px ;
-  }
-
-  .IconsFunction {
+  .fa-solid .fa-mobile-screen-button .fa-solid .fa-list .fa-solid .fa-store {
     margin-left: 15px;
   }
   .function .function-first p {

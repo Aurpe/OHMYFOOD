@@ -1,27 +1,17 @@
-******** restaurants*********
-
-
- .header {
+******** restaurants********* .header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-
-}
-
-.IconsArrow{
-  height:30px;
 }
 
 h1 img {
   height: 36px;
 }
 
-.Resto{
-  height:220px;
-  position: relative;
-  z-index: index 1;
+.Resto {
+  height: 220px;
 }
 
 .ImgResto {
@@ -31,58 +21,30 @@ h1 img {
      object-fit: cover;
 }
 
+.fa-regular .fa-heart {
+  margin-left: 20px;
+}
+
 .Menu {
   background-color: #F6F6F6;
-  border-radius: 47px 47px 0px 0px;
-  position:relative;
-  z-index:2;
+  border-radius: 47px;
+  position: relative;
+  z-index: 3;
 }
 
 .TitleResto {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   font-size: 28px;
   font-weight: bold;
   justify-content: center;
   font-family: Shrikhand;
-  margin-bottom:40px;
 }
-
-.TitleResto p{
-  margin-right:20px;
-}
-
 
 .Appetizer {
   margin: 12px;
   font-size: 18px;
   font-weight: 200;
-}
-
-.entrees{
-  margin-bottom:40px;
-}
-
-.plat{
-  margin-bottom:40px;
-}
-
-.Desserts{
-  margin-bottom:40px;
-}
-
-.BtnRounded{
-  margin-bottom:40px;
-}
-
-.Btn{
-  display: flex;
-  justify-content: center;
-}
-
-.IconsArrow{
-  height:30px;
 }
 
 .CardContent {
@@ -149,6 +111,7 @@ a {
 
 .BtnRounded .a:hover {
   background: linear-gradient(158deg, #9356DC, #FF79DA);
+  height: 50px;
 }
 
 .container-title {
