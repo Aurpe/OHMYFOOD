@@ -63,6 +63,13 @@
     margin-left: 15px;
   }
 
+  .Menu{
+    border: 2px solid black;
+    padding-right: 180px;
+    padding-left: 180px;
+    width:50%
+  }
+
   .GridRestaurant {
     padding-right: 180px;
     padding-left: 180px;
@@ -99,6 +106,10 @@
     font-weight: bold;
     font-size: 18px;
     color: white;
+  }
+
+  .footer a{
+    margin-right:15px;
   }
 
   .MainFooter{

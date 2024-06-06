@@ -466,8 +466,8 @@ input[type=checkbox] {
   color: black;
 }
 
-.heart .filled {
-  color: red;
+.FilledHeart {
+  color: blueviolet;
   position: absolute;
   top: 0;
   left: 0;
@@ -528,6 +528,12 @@ input[type=checkbox] {
   .Function .function-first p {
     margin-left: 15px;
   }
+  .Menu {
+    border: 2px solid black;
+    padding-right: 180px;
+    padding-left: 180px;
+    width: 50%;
+  }
   .GridRestaurant {
     padding-right: 180px;
     padding-left: 180px;
@@ -555,6 +561,9 @@ input[type=checkbox] {
     font-weight: bold;
     font-size: 18px;
     color: white;
+  }
+  .footer a {
+    margin-right: 15px;
   }
   .MainFooter {
     margin-right: 15px;
