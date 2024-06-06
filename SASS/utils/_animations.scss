@@ -1,1 +1,31 @@
- 
+.Heart {
+    position: relative;
+    font-size: 25px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.heart {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+.heart .fa-regular {
+    color: black;
+}
+
+.heart .filled {
+    color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.heart:hover .filled {
+    opacity: 1;
+}

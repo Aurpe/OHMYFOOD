@@ -24,9 +24,13 @@ h1 img{
   margin-left:20px;
 }
 
+.TitleResto .entrees .plat .desserts{
+  margin-bottom: 40px;
+}
+
 .Menu{
     background-color: #F6F6F6;
-    border-radius: 47px;
+    border-radius: 47px 47px 0px 0px;
     position: relative;
     z-index: 3;
 }
@@ -37,6 +41,7 @@ h1 img{
   font-size: 28px;
   font-weight: bold;
   justify-content: center;
+  align-items: center;
   font-family: Shrikhand;
   
 }
@@ -80,6 +85,16 @@ h1 img{
   font-size:18px;
   font-weight: bold;
   margin-bottom:1px;
+}
+
+.Btn{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+
 }
 
 footer {

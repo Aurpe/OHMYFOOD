@@ -1,46 +1,121 @@
-@media screen and (min-width: 767px) and (max-width: 1440px) {
+@media screen and (min-width: 1024px) {
+
 
     
    header{
     height:96px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
   }
   
   .BtnRounded {
       width: 25%;
+      margin-top: 5px;
+      margin-bottom: 30px;
     }
 
     .container-title h2 .container-title h3  {
         margin-bottom: 18px;
   }
 
-  .function-card{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-  }
+    
+    .container-title h2 {
+      height:47px;
+      margin-bottom:-10px;
+    }
 
-  .fa-solid .fa-mobile-screen-button .fa-solid .fa-list .fa-solid .fa-store{
+    .container-title h3{
+      height:46px
+    }
+
+    .input-first .location {
+      height:19px;
+    }
+
+    .Function {
+      padding-left: 180px;
+      padding-right: 180px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .FunctionCard {
+    display:flex;
+    justify-content:space-around;
+  
+    }
+
+    .Function.function-first {
+      width: 100%;
+    }
+    .Function.function-first {
+    width: 100%;
+    }
+
+  .IconsFunction{
     margin-left:15px;
   }
 
-  .function .function-first p {
+  .Function .function-first p {
     margin-left: 15px;
   }
 
+  .GridRestaurant {
+    padding-right: 180px;
+    padding-left: 180px;
+  }
+
+  .GridRestaurant h2{
+    margin-bottom:28px;
+  }
+   
+
   .ContainerMenu{
     display: flex;
-    width: 50%;
-    flex-direction: row;
+    width: 100%;
     flex-wrap: wrap;
  }
 
 
-    .footer{
-        display:flex;
-        flex-direction: row;
+  footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 114px;
 
-    }
+  }
+
+  .logo{
+    display:none;
+  }
+
+  
+  .logo2 {
+    font-family: Shrikhand;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+  }
+
+  .MainFooter{
+    margin-right: 15px;
+  }
+
+  .footer .img{
+    color:white;
+  }
+
+  .fa-regular .fa-heart {
+    margin-left:15px;
+  }
+
+
+
+
+    
 }
 

@@ -21,10 +21,15 @@
   }
 
   .IconsArrow{
-    height:30px;
-    margin:10px;
+    height: 30px;
+    margin: 10px;
+    color: black;
+    display: flex;
+    align-items: center;
   
-    
+  .fa-regular .fa-heart {
+      margin-left:15px;
+    }
 
   }
 

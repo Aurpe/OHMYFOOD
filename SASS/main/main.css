@@ -16,12 +16,13 @@ body {
 header {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   margin-top: 10px;
   height: 63px;
 }
 header h1 img {
   height: 36px;
+  margin-right: 20px;
 }
 
 .input-first {
@@ -38,7 +39,6 @@ header h1 img {
 
 .input-first .location {
   background-color: #EAEAEA;
-  height: 50px;
   border: none;
 }
 
@@ -97,6 +97,7 @@ header h1 img {
   font-size: 16px;
   border: none;
   padding: 10px;
+  margin-bottom: 40px;
 }
 
 .BtnRounded .a:hover {
@@ -127,13 +128,19 @@ header h1 img {
 .IconsArrow {
   height: 30px;
   margin: 10px;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.IconsArrow .fa-regular .fa-heart {
+  margin-left: 15px;
 }
 
-.function {
+.Function {
   padding: 20px;
 }
 
-.function .function-first {
+.Function .function-first {
   background-color: #F2F2F2;
   display: flex;
   border-radius: 20px;
@@ -144,7 +151,7 @@ header h1 img {
   align-items: center;
 }
 
-.function .function-first p {
+.Function .function-first p {
   font-size: 16px;
   font-weight: bold;
   margin-right: 50px;
@@ -266,9 +273,11 @@ footer {
   background-color: #353535;
   padding: 10px;
   color: white;
+  height: 186px;
 }
 footer .IconsFooter {
   color: white;
+  margin-bottom: 10px;
 }
 footer .logo {
   font-family: Shrikhand;
@@ -280,6 +289,7 @@ footer a {
   text-decoration: none;
   color: white;
   font-size: 16px;
+  margin-bottom: 10px;
 }
 footer .logo2 {
   display: none;
@@ -312,9 +322,13 @@ h1 img {
   margin-left: 20px;
 }
 
+.TitleResto .entrees .plat .desserts {
+  margin-bottom: 40px;
+}
+
 .Menu {
   background-color: #F6F6F6;
-  border-radius: 47px;
+  border-radius: 47px 47px 0px 0px;
   position: relative;
   z-index: 3;
 }
@@ -325,6 +339,7 @@ h1 img {
   font-size: 28px;
   font-weight: bold;
   justify-content: center;
+  align-items: center;
   font-family: Shrikhand;
 }
 
@@ -363,6 +378,15 @@ h1 img {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 1px;
+}
+
+.Btn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
 }
 
 footer {
@@ -423,37 +447,122 @@ a {
   font-weight: lighter;
 }
 
-@media screen and (min-width: 767px) and (max-width: 1440px) {
+.Heart {
+  position: relative;
+  font-size: 25px;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+.heart {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+
+.heart .fa-regular {
+  color: black;
+}
+
+.heart .filled {
+  color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.heart:hover .filled {
+  opacity: 1;
+}
+
+@media screen and (min-width: 1024px) {
   header {
     height: 96px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
   }
   .BtnRounded {
     width: 25%;
+    margin-top: 5px;
+    margin-bottom: 30px;
   }
   .container-title h2 .container-title h3 {
     margin-bottom: 18px;
   }
-  .function-card {
-    width: 100%;
+  .container-title h2 {
+    height: 47px;
+    margin-bottom: -10px;
+  }
+  .container-title h3 {
+    height: 46px;
+  }
+  .input-first .location {
+    height: 19px;
+  }
+  .Function {
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .FunctionCard {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: space-around;
   }
-  .fa-solid .fa-mobile-screen-button .fa-solid .fa-list .fa-solid .fa-store {
+  .Function.function-first {
+    width: 100%;
+  }
+  .Function.function-first {
+    width: 100%;
+  }
+  .IconsFunction {
     margin-left: 15px;
   }
-  .function .function-first p {
+  .Function .function-first p {
     margin-left: 15px;
+  }
+  .GridRestaurant {
+    padding-right: 180px;
+    padding-left: 180px;
+  }
+  .GridRestaurant h2 {
+    margin-bottom: 28px;
   }
   .ContainerMenu {
     display: flex;
-    width: 50%;
-    flex-direction: row;
+    width: 100%;
     flex-wrap: wrap;
   }
-  .footer {
+  footer {
     display: flex;
     flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 114px;
+  }
+  .logo {
+    display: none;
+  }
+  .logo2 {
+    font-family: Shrikhand;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+  }
+  .MainFooter {
+    margin-right: 15px;
+  }
+  .footer .img {
+    color: white;
+  }
+  .fa-regular .fa-heart {
+    margin-left: 15px;
   }
 }/*# sourceMappingURL=main.css.map */
