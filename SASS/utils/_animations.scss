@@ -4,17 +4,13 @@
 }
 
 input[type="checkbox"] {
-    display: none;
+   opacity:0.5
 }
 
 .heart {
     cursor: pointer;
     display: inline-block;
     position: relative;
-}
-
-.heart .fa-regular {
-    color: black;
 }
 
 .FilledHeart {
@@ -28,4 +24,11 @@ input[type="checkbox"] {
 
 .heart:hover .filled {
     opacity: 1;
+}
+
+.CheckMark{
+    height:100%;
+    background-color:green;
+    width:71px;
+    margin-right:82px;
 }

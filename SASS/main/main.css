@@ -127,10 +127,13 @@ header h1 img {
 
 .IconsArrow {
   height: 30px;
+  width: 30px;
   margin: 10px;
   color: black;
   display: flex;
   align-items: center;
+  position: absolute;
+  left: 30px;
 }
 .IconsArrow .fa-regular .fa-heart {
   margin-left: 15px;
@@ -453,17 +456,13 @@ a {
 }
 
 input[type=checkbox] {
-  display: none;
+  opacity: 0.5;
 }
 
 .heart {
   cursor: pointer;
   display: inline-block;
   position: relative;
-}
-
-.heart .fa-regular {
-  color: black;
 }
 
 .FilledHeart {
@@ -489,7 +488,7 @@ input[type=checkbox] {
     justify-content: center;
   }
   .BtnRounded {
-    width: 25%;
+    width: 218px;
     margin-top: 5px;
     margin-bottom: 30px;
   }
@@ -517,10 +516,7 @@ input[type=checkbox] {
     justify-content: space-around;
   }
   .Function.function-first {
-    width: 100%;
-  }
-  .Function.function-first {
-    width: 100%;
+    width: 30%;
   }
   .IconsFunction {
     margin-left: 15px;
@@ -528,11 +524,18 @@ input[type=checkbox] {
   .Function .function-first p {
     margin-left: 15px;
   }
+  .MenuCard {
+    width: 50%;
+  }
+  .ImgResto {
+    height: 383px;
+  }
   .Menu {
     border: 2px solid black;
     padding-right: 180px;
     padding-left: 180px;
     width: 50%;
+    margin: auto;
   }
   .GridRestaurant {
     padding-right: 180px;
@@ -553,10 +556,7 @@ input[type=checkbox] {
     justify-content: flex-end;
     height: 114px;
   }
-  .logo {
-    display: none;
-  }
-  .logo2 {
+  .Logo {
     font-family: Shrikhand;
     font-weight: bold;
     font-size: 18px;

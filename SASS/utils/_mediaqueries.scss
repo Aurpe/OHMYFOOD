@@ -12,9 +12,10 @@
   }
   
   .BtnRounded {
-      width: 25%;
+      width: 218px;
       margin-top: 5px;
       margin-bottom: 30px;
+
     }
 
     .container-title h2 .container-title h3  {
@@ -49,11 +50,9 @@
     }
 
     .Function.function-first {
-      width: 100%;
+      width: 30%;
     }
-    .Function.function-first {
-    width: 100%;
-    }
+    
 
   .IconsFunction{
     margin-left:15px;
@@ -63,12 +62,23 @@
     margin-left: 15px;
   }
 
+  .MenuCard{
+    width:50%
+  }
+
+  .ImgResto {
+    height:383px;
+  }
+
   .Menu{
     border: 2px solid black;
     padding-right: 180px;
     padding-left: 180px;
-    width:50%
+    width:50%;
+    margin:auto;
   }
+
+
 
   .GridRestaurant {
     padding-right: 180px;
@@ -96,12 +106,7 @@
 
   }
 
-  .logo{
-    display:none;
-  }
-
-  
-  .logo2 {
+  .Logo{
     font-family: Shrikhand;
     font-weight: bold;
     font-size: 18px;
