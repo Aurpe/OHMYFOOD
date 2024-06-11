@@ -31,25 +31,23 @@
 }
 
 .IconsHeart i {
-  color: black;
+  color:black;
   font-size: 25px;
   position: relative;
 }
 
 
 .NewCard {
-  border: solid 1px;
+
   font-weight: bold;
   font-size: 14px;
   background-color: #99E2D0;
   font-weight: 500;
   height: 29px;
   color: #008766;
-  display: block;
   grid-row: 1;
   grid-column: 2/3;
-  width: 80%;
-  padding: 3px;
+  width: 80px;
   justify-content: space-around;
   display: flex;
   align-items: center;

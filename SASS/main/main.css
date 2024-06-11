@@ -215,7 +215,7 @@ header h1 img {
 }
 
 .IconsHeart i {
-  color: black;
+  color: linear-gradient(358deg, #9356DC, #FF79DA);
   font-size: 25px;
   position: relative;
 }
