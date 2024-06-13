@@ -82,7 +82,9 @@ h1 img{
 .Price{
   font-weight:bold;
   font-size:15px;
+  margin-right:20px;
 }
+
 .CheckMark{
   height: 100%;
   width: 71px;
@@ -94,9 +96,8 @@ h1 img{
   flex-direction: column;
   justify-content: center;
   border-radius: 0px 15px 15px 0px;
-
-
 }
+
 .Name{
   font-size:18px;
   font-weight: bold;
