@@ -1,40 +1,49 @@
 input[type="checkbox"] {
-    opacity: 0.5;
+    display:none;
 }
 
 .FilledHeart, .EmptyHeart {
     transition: opacity 0.3s ease;
+    position:absolute;
 }
+
+.IconesHeart .FilledHeart{
+    color:violet
+}
+
 
 .FilledHeart {
-    opacity: 1;
-}
-
-input .FilledHeart{
-    opacity:0;
-    right:53px;
-}
-
-input .EmptyHeart{
-    right:25px;
-}
-
-input[type="checkbox"]:checked ~ .EmptyHeart {
-    opacity: 1;
-}
-  
-input[type="checkbox"]:checked ~ .FilledHeart {
-    opacity: 1;
+    opacity: 0;
+    right:55px;
 }
 
 .EmptyHeart{
-    opacity:2;
+    right:26px;
 }
+
+input[type="checkbox"]:checked ~ .EmptyHeart {
+    opacity: 0;
+  }
   
 
-.CheckMark{
-    height:100%;
-    background-color:green;
-    width:71px;
-    margin-right:82px;
-}
+input[type="checkbox"]:checked ~ .FilledHeart {
+    opacity: 1;
+  }
+
+
+.spinner {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 9px solid;
+    border-color: #dbdcef;
+    border-right-color: #474bff;
+    animation: spinner-d3wgkg 1.4s infinite linear;
+ }
+ 
+ @keyframes spinner-d3wgkg {
+    to {
+       transform: rotate(1turn);
+    }
+ }
+

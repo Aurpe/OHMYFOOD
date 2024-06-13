@@ -100,7 +100,7 @@ header h1 img {
   margin-bottom: 40px;
 }
 
-.BtnRounded .a:hover {
+.BtnRounded :hover {
   background: linear-gradient(158deg, #9356DC, #FF79DA);
 }
 
@@ -109,6 +109,10 @@ header h1 img {
   flex-wrap: wrap;
   align-content: center;
   color: grey;
+}
+
+.IconsFunction:hover {
+  color: #9356DC;
 }
 
 .IconsInput {
@@ -123,6 +127,7 @@ header h1 img {
   height: 21px;
   width: 100%;
   font-weight: lighter;
+  color: black;
 }
 
 .IconsArrow {
@@ -135,8 +140,17 @@ header h1 img {
   position: absolute;
   left: 30px;
 }
-.IconsArrow .fa-regular .fa-heart {
+
+.fa-regular .fa-heart {
   margin-left: 15px;
+}
+
+.IconsCheck {
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 2px;
+  color: #99E2D0;
+  background: white;
 }
 
 .Function {
@@ -152,6 +166,7 @@ header h1 img {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  width: 335px;
 }
 
 .Function .function-first p {
@@ -215,24 +230,21 @@ header h1 img {
 }
 
 .IconsHeart i {
-  color: linear-gradient(358deg, #9356DC, #FF79DA);
+  color: black;
   font-size: 25px;
   position: relative;
 }
 
 .NewCard {
-  border: solid 1px;
   font-weight: bold;
   font-size: 14px;
   background-color: #99E2D0;
   font-weight: 500;
   height: 29px;
   color: #008766;
-  display: block;
   grid-row: 1;
   grid-column: 2/3;
-  width: 80%;
-  padding: 3px;
+  width: 80px;
   justify-content: space-around;
   display: flex;
   align-items: center;
@@ -450,31 +462,33 @@ a {
   font-weight: lighter;
 }
 
-.Heart {
-  position: relative;
-  font-size: 25px;
-}
-
 input[type=checkbox] {
-  opacity: 0.5;
+  display: none;
 }
 
-.heart {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
+.FilledHeart, .EmptyHeart {
+  transition: opacity 0.3s ease;
+  position: absolute;
+}
+
+.IconesHeart .FilledHeart {
+  color: violet;
 }
 
 .FilledHeart {
-  color: blueviolet;
-  position: absolute;
-  top: 0;
-  left: 0;
   opacity: 0;
-  transition: opacity 0.3s;
+  right: 55px;
 }
 
-.heart:hover .filled {
+.EmptyHeart {
+  right: 26px;
+}
+
+input[type=checkbox]:checked ~ .EmptyHeart {
+  opacity: 0;
+}
+
+input[type=checkbox]:checked ~ .FilledHeart {
   opacity: 1;
 }
 
@@ -551,27 +565,24 @@ input[type=checkbox] {
   }
   footer {
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: flex-end;
-    height: 114px;
+    flex-direction: row-reverse;
+    align-items: baseline;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
   }
   .Logo {
     font-family: Shrikhand;
     font-weight: bold;
     font-size: 18px;
-    color: white;
   }
-  .footer a {
-    margin-right: 15px;
-  }
-  .MainFooter {
-    margin-right: 15px;
+  .IconsFooter.TxtFooter {
+    margin-right: 20px;
   }
   .footer .img {
     color: white;
   }
   .fa-regular .fa-heart {
-    margin-left: 15px;
+    margin-left: 20px;
   }
 }/*# sourceMappingURL=main.css.map */

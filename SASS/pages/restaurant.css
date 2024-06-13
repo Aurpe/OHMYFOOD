@@ -65,6 +65,11 @@ h1 img {
   display: flex;
   justify-content: space-between;
   filter: drop-shadow(2px 4px 6px grey);
+  overflow: hidden;
+}
+
+.NS {
+  width: 100%;
 }
 
 .Subtitle {
@@ -75,6 +80,19 @@ h1 img {
 .Price {
   font-weight: bold;
   font-size: 15px;
+}
+
+.CheckMark {
+  height: 100%;
+  width: 71px;
+  background-color: #99E2D0;
+  margin-right: -82px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0px 15px 15px 0px;
 }
 
 .Name {
@@ -148,7 +166,4 @@ a {
   text-align: center;
   margin-bottom: 30px;
   font-weight: lighter;
-}
-
-
-/*# sourceMappingURL=restaurant.css.map */
+}/*# sourceMappingURL=restaurant.css.map */

@@ -6,6 +6,10 @@
     color:grey;
 }
 
+.IconsFunction:hover{
+  color:#9356DC
+}
+
 .IconsInput{
     height: 16px;
     width: 12px;
@@ -31,15 +35,19 @@
     align-items: center;
     position:absolute;
     left:30px;
+  }
   
   .fa-regular .fa-heart {
       margin-left:15px;
     }
 
-  .Mark{
-    border:solid 1px;
-    border-radius:30px;
+  .IconsCheck{
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 2px;
+    color: #99E2D0;
+    background: white;
   }
 
-  }
+  
 
