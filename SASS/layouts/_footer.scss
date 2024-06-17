@@ -1,9 +1,9 @@
-
+$bgcolorFooter:#353535;
 
   footer {
     display: flex;
     flex-direction: column;
-    background-color: #353535;
+    background-color: $bgcolorFooter;
     padding: 10px;
     color: white;
     height:186px;

@@ -1,10 +1,11 @@
+$bgcolorFunction:#F2F2F2;
 
 .Function {
   padding: 20px;
 }
 
 .Function .function-first {
-  background-color: #F2F2F2;
+  background-color:$bgcolorFunction;
   display: flex;
   border-radius: 20px;
   margin: 10px;

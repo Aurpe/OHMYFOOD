@@ -1,7 +1,7 @@
- 
+ $BgcolorInput:#EAEAEA;
 
 .input-first {
-  background-color:#EAEAEA;
+  background-color:$BgcolorInput;
   display: flex;
   flex-wrap: wrap;
   align-content: stretch;
@@ -13,8 +13,8 @@
 }
 
 .input-first .location {
-  background-color:#EAEAEA;
-  border: none;
+  background-color:$BgcolorInput;
+  border:none;
 }
 
 .IconsInput{

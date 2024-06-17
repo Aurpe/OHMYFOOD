@@ -1,50 +1,78 @@
 input[type="checkbox"] {
-    display:none;
+    opacity: 0.2;
+    z-index: 4;
 }
-
 .FilledHeart, .EmptyHeart {
     transition: opacity 0.3s ease;
-    position:absolute;
 }
-
-.IconesHeart .FilledHeart{
-    color:violet
-}
-
 
 .FilledHeart {
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(#9356DC, #FF79DA);
     opacity: 0;
-    right:55px;
 }
 
-.EmptyHeart{
-    right:26px;
+.EmptyHeart {
+    opacity: 1; 
+    color: black;
 }
 
-input[type="checkbox"]:checked ~ .EmptyHeart {
-    opacity: 0;
-  }
-  
-
-input[type="checkbox"]:checked ~ .FilledHeart {
-    opacity: 1;
-  }
 
 
-.spinner {
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    border: 9px solid;
-    border-color:#FF79DA ;
-    border-right-color:#9356DC;
-    animation: spinner-d3wgkg 0.4s infinite linear;
-    transition-duration: 3s;
- }
- 
- @keyframes spinner-d3wgkg {
-    to {
-       transform: rotate(1turn);
+.Entrees{
+    animation: slideEntry 1s;
+}
+
+.Plats {
+    animation: slidePlat 2s;
+}
+
+.Desserts {
+    animation: slideDessert 3s;
+}
+
+@keyframes slideEntry {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
     }
- }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes slidePlat {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes slideDessert {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.CardContent:hover .CheckMark {
+    right: 0;
+}
+
+    
+
+
 
