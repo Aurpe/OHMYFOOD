@@ -3,25 +3,6 @@
   font-style: normal;
 }
 
-.TitleResto .Logo {
-  font-family: "Shrikhand";
-}
-
-body {
-  margin: 0px;
-}
-
-:root {
-  --main-color: #9356DC;
-  --second-color:#FF79DA;
-  --third-color: #99E2D0;
-}
-
-* {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-}
-
 body {
   margin: 0;
 }
@@ -392,6 +373,22 @@ h1 img {
   font-family: Shrikhand;
 }
 
+.Line {
+  border: 1px solid;
+  width: 40px;
+  color: #99E2D0;
+  margin-left: 10px;
+  margin-bottom: 12px;
+  margin-top: -10px;
+}
+
+input[type="checkbox"] {
+  right:30%
+}
+
+.FilledHeart, .EmptyHeart {
+  right:30%
+}
 .Appetizer {
   margin: 12px;
   font-size: 18px;
@@ -549,15 +546,15 @@ input[type=checkbox]:checked ~ .FilledHeart {
 }
 
 .Entrees {
-  animation: slideEntry 1s;
+  animation: slideEntree 1s;
 }
 
 .Plats {
-  animation: slidePlat 2s;
+  animation: slidePlat 3s;
 }
 
 .Desserts {
-  animation: slideDessert 3s;
+  animation: slideDessert 4s;
 }
 
 @keyframes slideEntry {
@@ -703,7 +700,7 @@ input[type=checkbox]:checked ~ .FilledHeart {
   .footer .img {
     color: white;
   }
-  .fa-regular .fa-heart {
+  .IconsHeart {
     margin-left: 20px;
   }
 }

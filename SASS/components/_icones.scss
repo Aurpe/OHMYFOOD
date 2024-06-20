@@ -7,6 +7,10 @@ $colorIconsCheck:#99E2D0;
     flex-wrap: wrap;
     align-content: center;
     color: $colorIconsFunction;
+    &:hover {
+      color: #9356DC;
+    }
+  }
   
     .IconsInput {
       height: 16px;
@@ -26,11 +30,6 @@ $colorIconsCheck:#99E2D0;
       position: absolute;
       left: 30px;
     }
-  
-    .HeartMenu {
-      margin-left: 15px;
-    }
-  }
   
   .IconsCheck {
     border-radius: 50%;

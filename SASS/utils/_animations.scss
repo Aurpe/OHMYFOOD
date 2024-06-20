@@ -31,16 +31,17 @@ input[type=checkbox]:checked ~ .FilledHeart {
     cursor: pointer;
 }
 
+
 .Entrees {
-    animation: slideEntry 1s;
+    animation: slideEntree 1s;
 }
 
 .Plats {
-    animation: slidePlat 2s;
+    animation: slidePlat 3s;
 }
 
 .Desserts {
-    animation: slideDessert 3s;
+    animation: slideDessert 4s;
 }
 
 @keyframes slideEntry {
