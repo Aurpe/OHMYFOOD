@@ -1,41 +1,31 @@
-$bgcolorFooter:#353535;
 
-  footer {
-    display: flex;
-    flex-direction: column;
-    background-color: $bgcolorFooter;
-    padding: 10px;
-    color: white;
-    height:186px;
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: $footerbgColor;
+  padding: 10px;
+  color: $color-white;
+  height: 186px;
 
-    .IconsFooter{
-      color:white;
-      margin-bottom: 10px;
-    }
+  .IconsFooter {
+    margin-bottom: 10px;
+  }
 
-    .logo{
-    font-family: Shrikhand;
+  .logo {
+    font-family: $font-logo;
     font-weight: bold;
     font-size: 18px;
-    color: white;
+    color: $color-white;
   }
 
-    a {
+  a {
     text-decoration: none;
-    color:white;
-    font-size:16px;
-    margin-bottom:10px;
-  }
-
-    .logo2{
-    display:none;
+    color: $color-white;
+    font-size: 16px;
+    margin-bottom: 10px;
   }
 
 }
-  
-
-  
-
 
 
 

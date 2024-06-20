@@ -1,11 +1,12 @@
-input[type="checkbox"] {
+
+  input[type="checkbox"] {
     opacity: 0;
     z-index: 4;
-    position:absolute;
+    position: absolute;
 }
 
 .FilledHeart, .EmptyHeart {
-    position:absolute;
+    position: absolute;
     transition: opacity 0.3s ease;
 }
 
@@ -25,15 +26,12 @@ input[type=checkbox]:checked ~ .FilledHeart {
 }
 
 .EmptyHeart {
-    opacity: 1; 
+    opacity: 1;
     color: black;
     cursor: pointer;
-   
-   
 }
 
-
-.Entrees{
+.Entrees {
     animation: slideEntry 1s;
 }
 
@@ -51,7 +49,7 @@ input[type=checkbox]:checked ~ .FilledHeart {
         transform: translateY(40px);
     }
 
-    100%{
+    100% {
         opacity: 1;
         transform: translateY(0px);
     }
@@ -63,7 +61,7 @@ input[type=checkbox]:checked ~ .FilledHeart {
         transform: translateY(40px);
     }
 
-    100%{
+    100% {
         opacity: 1;
         transform: translateY(0px);
     }
@@ -75,33 +73,26 @@ input[type=checkbox]:checked ~ .FilledHeart {
         transform: translateY(40px);
     }
 
-    100%{
+    100% {
         opacity: 1;
         transform: translateY(0px);
     }
 }
 
-.CheckMark{
-    animation: SlideCheck;
-    transition: transform 4ms ease-in-out;
-}
+.CheckMark, .CardContent, .NS, .Price {
+    transition: all 0.3s ease;
 
-@keyframes SlideCheck {
-    0%{
-        opacity:0;
-        transform: translateX(-82px)
+    .CardContent:hover & {
+        .Price {
+            transform: translateX(-50px);
+        }
 
+        .CheckMark {
+            right: 10px;
+        }
 
+        .NS {
+            max-width: calc(100% - 110px);
+        }
     }
-    100%{
-        opacity:1;
-        transform: transalateX(0px)
-        
-    }
-    
 }
-    
-
-
-
-

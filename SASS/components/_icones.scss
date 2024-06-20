@@ -1,45 +1,41 @@
+$colorIconsFunction:#7E7E7E;
+$color-black: black;
+$colorIconsCheck:#99E2D0;
 
-.IconsFunction{
+  .IconsFunction {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    color:grey;
-}
-
-.IconsFunction:hover{
-  color:#9356DC
-}
-
-.IconsInput{
-    height: 16px;
-    width: 12px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+    color: $colorIconsFunction;
   
-  .IconsArrow{
-    height: 30px;
-    width: 30px;
-    margin: 10px;
-    color: black;
-    display: flex;
-    align-items: center;
-    position:absolute;
-    left:30px;
-  }
-  
-  .fa-regular .fa-heart {
-      margin-left:15px;
+    .IconsInput {
+      height: 16px;
+      width: 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
-
-  .IconsCheck{
+  
+    .IconsArrow {
+      height: 30px;
+      width: 30px;
+      margin: 10px;
+      $color-black: black;
+      display: flex;
+      align-items: center;
+      position: absolute;
+      left: 30px;
+    }
+  
+    .HeartMenu {
+      margin-left: 15px;
+    }
+  }
+  
+  .IconsCheck {
     border-radius: 50%;
     border: 1px solid white;
     padding: 2px;
-    color: #99E2D0;
+    color: $colorIconsCheck;
     background: white;
   }
-
-  
-

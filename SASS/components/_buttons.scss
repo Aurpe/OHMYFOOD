@@ -1,5 +1,6 @@
 
 $ColorButton: linear-gradient(358deg, #9356DC, #FF79DA);
+$ColorButton2:linear-gradient(158deg, #9356DC, #FF79DA);
 
 
 .BtnRounded {
@@ -16,10 +17,27 @@ $ColorButton: linear-gradient(358deg, #9356DC, #FF79DA);
     margin-bottom:40px;
   }
     .BtnRounded :hover{
-      background: linear-gradient(158deg, #9356DC, #FF79DA);
+      background: $ColorButton2;
     }
    
- 
+    .BtnRounded {
+      border-radius: 25px;
+      background: $ColorButton;
+      color: $color-white;
+      font-weight: bold;
+      height: 50px;
+      width: 65%;
+      margin: 30px 0 40px;
+      font-size: 16px;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      text-align: center;
+      
+      &:hover {
+        background: $ColorButton2;
+      }
+    }
 
 
  

@@ -1,48 +1,46 @@
-$bgcolorFunction:#F2F2F2;
+$bgcolorFunction: #F2F2F2;
 
 .Function {
   padding: 20px;
+
+  .function-first {
+    background-color: $bgcolorFunction;
+    display: flex;
+    border-radius: 20px;
+    margin: 10px;
+    height: 72px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 335px;
+
+    p {
+      font-size: 16px;
+      font-weight: bold;
+      margin-right: 50px;
+    }
+  }
+
+  .NumberFunction {
+    margin-left: -15px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 24px;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    background-color: #9356DC;
+    border: none;
+    font-weight: bold;
+    color: white;
+  }
+
+  .IconsFunction {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 15px;
+  }
 }
-
-.Function .function-first {
-  background-color:$bgcolorFunction;
-  display: flex;
-  border-radius: 20px;
-  margin: 10px;
-  height: 72px;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  width:335px;
-}
-
-.Function .function-first p {
-  font-size: 16px;
-  font-weight: bold;
-  margin-right: 50px;
-}
-
-.NumberFunction {
-  margin-left: -15px;
-  border: 1px solid;
-  border-radius: 50%;
-  display: flex;
-  flex-wrap: wrap;
-  width: 24px;
-  justify-content: center;
-  align-items: center;
-  height: 24px;
-  background-color: #9356DC;
-  border: none;
-  font-weight: bold;
-  color: white;
-}
-
-.IconsFunction {
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-  margin: 15px;
-}
-
-

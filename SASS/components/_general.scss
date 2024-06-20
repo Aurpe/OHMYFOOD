@@ -21,4 +21,38 @@
   }
   
   
-  
+$font-main: "Roboto", sans-serif;
+$font-logo: "Shrikhand";
+$color-main: #9356DC;
+$color-second: #FF79DA;
+$color-third: #99E2D0;
+$color-gray: #EAEAEA;
+$color-background: #F2F2F2;
+$color-white: white;
+$color-black: black;
+$footerbgColor: #353535;
+$colorIconsFunction:#7E7E7E;
+$bgColorGrid:#F6F6F6;
+$policeColorCard: #008766;
+
+
+* {
+  font-family: $font-main;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+}
+
+:root {
+  --main-color: $color-main;
+  --second-color: $color-second;
+  --third-color: $color-third;
+}
+
+.TitleResto {
+  .Logo {
+    font-family: $font-logo;
+  }
+}
