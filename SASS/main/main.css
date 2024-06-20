@@ -164,14 +164,20 @@ header h1 img {
   align-content: center;
   color: #7E7E7E;
 }
-.IconsFunction .IconsInput {
+
+.IconsFunction:hover {
+  color: #9356DC;
+}
+
+.IconsInput {
   height: 16px;
   width: 12px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.IconsFunction .IconsArrow {
+
+.IconsArrow {
   height: 30px;
   width: 30px;
   margin: 10px;
@@ -179,9 +185,6 @@ header h1 img {
   align-items: center;
   position: absolute;
   left: 30px;
-}
-.IconsFunction .HeartMenu {
-  margin-left: 15px;
 }
 
 .IconsCheck {
@@ -373,21 +376,13 @@ h1 img {
   font-family: Shrikhand;
 }
 
-.Line {
+.LineMenu {
   border: 1px solid;
   width: 40px;
   color: #99E2D0;
   margin-left: 10px;
   margin-bottom: 12px;
   margin-top: -10px;
-}
-
-input[type="checkbox"] {
-  right:30%
-}
-
-.FilledHeart, .EmptyHeart {
-  right:30%
 }
 .Appetizer {
   margin: 12px;
@@ -590,15 +585,15 @@ input[type=checkbox]:checked ~ .FilledHeart {
 .CheckMark, .CardContent, .NS, .Price {
   transition: all 0.3s ease;
 }
-.CardContent:hover .CheckMark .Price, .CardContent:hover .CardContent .Price, .CardContent:hover .NS .Price, .CardContent:hover .Price .Price {
-  transform: translateX(-50px);
+
+.CardContent:hover .Price {
+  transform: translateX(-82px);
 }
-.CardContent:hover .CheckMark .CheckMark, .CardContent:hover .CardContent .CheckMark, .CardContent:hover .NS .CheckMark, .CardContent:hover .Price .CheckMark {
-  right: 10px;
+
+.CardContent:hover .CheckMark{
+  transform: translateX(-70px)
 }
-.CardContent:hover .CheckMark .NS, .CardContent:hover .CardContent .NS, .CardContent:hover .NS .NS, .CardContent:hover .Price .NS {
-  max-width: calc(100% - 110px);
-}
+
 
 @media screen and (min-width: 1024px) {
   header {

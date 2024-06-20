@@ -46,6 +46,15 @@ h1 img {
   font-family: Shrikhand;
 }
 
+.LineMenu {
+  border: 1px solid;
+  width: 40px;
+  color: #99E2D0;
+  margin-left: 10px;
+  margin-bottom: 12px;
+  margin-top: -10px;
+}
+
 .Appetizer {
   margin: 12px;
   font-size: 18px;

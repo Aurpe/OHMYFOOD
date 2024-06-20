@@ -81,19 +81,19 @@ input[type=checkbox]:checked ~ .FilledHeart {
 }
 
 .CheckMark, .CardContent, .NS, .Price {
-    transition: all 0.3s ease;
-
-    .CardContent:hover & {
-        .Price {
-            transform: translateX(-50px);
-        }
-
-        .CheckMark {
-            right: 10px;
-        }
-
-        .NS {
-            max-width: calc(100% - 110px);
-        }
-    }
+    transition: all 0.4s ease-in-out;
 }
+
+.CardContent:hover .Price {
+    transform: translateX(-82px);
+  }
+  
+.CardContent:hover .CheckMark{
+    transform: translateX(-70px)
+}
+
+ 
+      
+
+
+

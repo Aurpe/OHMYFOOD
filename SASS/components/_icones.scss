@@ -7,10 +7,10 @@ $colorIconsCheck:#99E2D0;
     flex-wrap: wrap;
     align-content: center;
     color: $colorIconsFunction;
-    &:hover {
+  }
+    .IconsFunction:hover {
       color: #9356DC;
     }
-  }
   
     .IconsInput {
       height: 16px;
