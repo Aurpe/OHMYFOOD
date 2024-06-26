@@ -44,7 +44,7 @@ input[type=checkbox]:checked ~ .FilledHeart {
     animation: slideDessert 4s;
 }
 
-@keyframes slideEntry {
+@keyframes slideEntree {
     0% {
         opacity: 0;
         transform: translateY(40px);
@@ -90,6 +90,46 @@ input[type=checkbox]:checked ~ .FilledHeart {
   
 .CardContent:hover .CheckMark{
     transform: translateX(-70px)
+}
+
+
+.IconsH {
+    font-size: 2rem; 
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+
+
+@keyframes filledHeart {
+    0% {
+        opacity: 0;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+
+@keyframes EmptyHeart {
+    0% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+
+.IconsCard:hover .EmptyHeart {
+    animation: unfillHeart 0.3s forwards;
+}
+
+.IconsCard:hover .FilledHeart {
+    animation: fillHeart 0.3s forwards;
+    opacity: 1;
 }
 
  

@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Menu Restaurant a la française</title>
+        <title>Menu Restaurant à la française</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -18,7 +18,10 @@
     </head>
     <body>
         <header>
-            <i class="fa-solid fa-arrow-left IconsArrow"></i>
+            <a href="./../index.html">
+                <i class="fa-solid fa-arrow-left IconsArrow"></i>
+            </a>
+           
             <h1>
                 <img src="../Images/images/logo/ohmyfood.png" alt="logo de ohmyfood">
             </h1>
@@ -30,12 +33,14 @@
             
             <section class="Menu">
                 <div class="TitleResto">
-                    <p>A la française</p>
-                    <input type="checkbox" id="heartCheckbox" class="Heart">
-                    <i class="fa-regular fa-heart EmptyHeart IconsHeart"></i>
-                    <i class="fa-solid fa-heart FilledHeart IconsHeart"></i>  
+                    <p>À la Française</p>
+                    <div class=HeartMenu>
+                        <input type="checkbox" id="heartCheckbox" class="Heart">
+                        <i class="fa-regular fa-heart EmptyHeart IconsHeart"></i>
+                        <i class="fa-solid fa-heart FilledHeart IconsHeart"></i> 
+                    </div> 
                 </div>
-                
+                    
                 <div class="Entrees">
                     <p class="Appetizer">ENTREES</p>
                     <div class="LineMenu"></div>

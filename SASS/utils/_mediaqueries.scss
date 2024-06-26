@@ -59,21 +59,20 @@
   }
 
   .MenuCard {
-    width: 50%;
+    width: 40%;
   }
 
   .Resto {
-    height: 500px;
+    height: 383px;
   }
 
   .ImgResto {
-    height: 550px;
+    height: 115%;
   }
 
   .Menu {
-    border: 2px solid black;
     padding: 0 180px;
-    width: 50%;
+    width: 40%;
     margin: auto;
   }
 
@@ -89,6 +88,9 @@
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 100px;
+    row-gap: 50px;
   }
 
   footer {
@@ -126,7 +128,4 @@
     color: white;
   }
 
-  .IconsHeart {
-    margin-left: 20px;
-  }
 }
