@@ -20,9 +20,7 @@ h1 img{
   width:100%;
   object-fit:cover;
 }
-.fa-regular .fa-heart{
-  margin-left:20px;
-}
+
 
 .TitleResto .entrees .plat .desserts{
   margin-bottom: 40px;
@@ -42,14 +40,30 @@ h1 img{
   font-weight: bold;
   justify-content: center;
   align-items: center;
-  font-family: Shrikhand;
+  font-family: font-logo;
   
 }
 
-.Appetizer {
+.TitleMenu {
   margin:12px;
   font-size:18px;
   font-weight:200;
+}
+
+.HeartMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.Line {
+  border: 1px solid;
+  width: 40px;
+  color: #99E2D0;
+  margin-left: 10px;
+  margin-bottom: 12px;
+  margin-top: -10px;
 }
 
 .CardContent{
@@ -68,7 +82,7 @@ h1 img{
   overflow:hidden;
 }
 
-.NS{
+.CardNS{
   width: 100%;
 }
 
