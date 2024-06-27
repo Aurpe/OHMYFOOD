@@ -1,4 +1,5 @@
-******** restaurants********* .header {
+******** restaurants********* 
+.header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -19,10 +20,6 @@ h1 img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.fa-regular .fa-heart {
-  margin-left: 20px;
 }
 
 .TitleResto .entrees .plat .desserts {
@@ -46,10 +43,26 @@ h1 img {
   font-family: Shrikhand;
 }
 
-.Appetizer {
+.TitleMenu {
   margin: 12px;
   font-size: 18px;
   font-weight: 200;
+}
+
+.HeartMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.Line {
+  border: 1px solid;
+  width: 40px;
+  color: #99E2D0;
+  margin-left: 10px;
+  margin-bottom: 12px;
+  margin-top: -10px;
 }
 
 .CardContent {
@@ -68,7 +81,7 @@ h1 img {
   overflow: hidden;
 }
 
-.NS {
+.CardNS {
   width: 100%;
 }
 
