@@ -1,4 +1,3 @@
-@import './../pages/restaurant.css';
 * {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -585,4 +584,187 @@ input[type=checkbox]:checked ~ .FilledHeart {
 .main-container {
   display: block;
   opacity: 1;
+}
+
+******** restaurants********* .header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 img {
+  height: 36px;
+}
+
+.Resto {
+  height: 220px;
+}
+
+.ImgResto {
+  height: 275px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.TitleResto .entrees .plat .desserts {
+  margin-bottom: 40px;
+}
+
+.Menu {
+  background-color: #F6F6F6;
+  border-radius: 47px 47px 0px 0px;
+  position: relative;
+  z-index: 3;
+}
+
+.TitleResto {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 28px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  font-family: font-logo;
+}
+
+.TitleMenu {
+  margin: 12px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.HeartMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.Line {
+  border: 1px solid;
+  width: 40px;
+  color: #99E2D0;
+  margin-left: 10px;
+  margin-bottom: 12px;
+  margin-top: -10px;
+}
+
+.CardContent {
+  border: solid 1px white;
+  border-radius: 15px;
+  background-color: white;
+  height: 69px;
+  align-items: flex-end;
+  padding-left: 10px;
+  width: auto;
+  padding-right: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  filter: drop-shadow(2px 4px 6px grey);
+  overflow: hidden;
+}
+
+.CardNS {
+  width: 100%;
+}
+
+.Subtitle {
+  margin-top: 1px;
+  font-size: 15px;
+}
+
+.Price {
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+.CheckMark {
+  height: 100%;
+  width: 71px;
+  background-color: #99E2D0;
+  margin-right: -82px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.Name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+
+.Btn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #353535;
+  padding: 10px;
+  color: white;
+}
+
+footer img {
+  height: 27px;
+  width: 139px;
+  color: white;
+}
+
+.logo {
+  font-family: Shrikhand;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+
+.fa-solid .fa-utensils .fa-handshake-angle {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.BtnRounded .a:hover {
+  background: linear-gradient(158deg, #9356DC, #FF79DA);
+  height: 50px;
+}
+
+.container-title {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F2F2F2;
+  padding: 10px;
+}
+
+.container-title h2 {
+  width: 70%;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+.container-title h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: lighter;
 }/*# sourceMappingURL=main.css.map */
