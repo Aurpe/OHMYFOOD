@@ -14,7 +14,7 @@ body {
 }
 
 .TitleResto .Logo {
-  font-family: "Shrikhand";
+  font-family: "Shrikhand", sans-serif;
 }
 
 header {
@@ -316,7 +316,7 @@ footer .IconsFooter {
   margin-bottom: 10px;
 }
 footer .logo {
-  font-family: "Shrikhand";
+  font-family: "Shrikhand", sans-serif;
   font-weight: bold;
   font-size: 18px;
   color: white;
@@ -707,6 +707,7 @@ input[type=checkbox]:checked ~ .FilledHeart {
     margin-right: 20px;
   }
   .logo {
+    font-family: "Shrikand", sans-serif;
     font-weight: bold;
     font-size: 18px;
     position: absolute;

@@ -43,10 +43,9 @@ h1 img {
   font-weight: bold;
   justify-content: center;
   align-items: center;
-  font-family: "Shrikhand",sans-serif;
+  font-family: font-logo;
 }
-
-.HeartTitle {
+.HeartMenu {
   display: flex;
   align-items: center;
   justify-content: space-between;
