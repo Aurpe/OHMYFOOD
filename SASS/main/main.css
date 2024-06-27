@@ -240,7 +240,7 @@ header h1 img {
   padding: 20px;
   background-color: #F6F6F6;
 }
-.GridRestaurant .RestaurantCard {
+.GridRestaurant .a {
   display: grid;
   grid-template-columns: 75% 25%;
   grid-template-rows: 75% 25%;
@@ -257,10 +257,11 @@ header h1 img {
      object-fit: cover;
 }
 .GridRestaurant .IconsCard {
-  grid-column: 2;
-  grid-row: 2;
   z-index: 2;
   font-size: 22px;
+  position: relative;
+  top: -60px;
+  left: 80%;
 }
 .GridRestaurant .NewCard {
   font-weight: 500;
@@ -314,7 +315,7 @@ footer {
 footer .IconsFooter {
   margin-bottom: 10px;
 }
-footer .CustomFont {
+footer .logo {
   font-family: "Shrikhand";
   font-weight: bold;
   font-size: 18px;
@@ -705,8 +706,7 @@ input[type=checkbox]:checked ~ .FilledHeart {
   footer a {
     margin-right: 20px;
   }
-  .Logo {
-    font-family: Shrikhand;
+  .logo {
     font-weight: bold;
     font-size: 18px;
     position: absolute;
@@ -715,7 +715,7 @@ input[type=checkbox]:checked ~ .FilledHeart {
   }
   .MainFooter {
     margin-bottom: 10px;
-    margin-left: 25%;
+    margin-left: 35%;
   }
   .IconsFooter.TxtFooter {
     margin-right: 20px;
