@@ -197,7 +197,7 @@ header h1 img {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  width: 335px;
+  width: 100%;
 }
 .Function .function-first p {
   font-size: 16px;
@@ -230,10 +230,13 @@ header h1 img {
   padding: 20px;
   background-color: #F6F6F6;
 }
-.GridRestaurant .a {
+.GridRestaurant .RestaurantCard a {
   display: grid;
   grid-template-columns: 75% 25%;
   grid-template-rows: 75% 25%;
+}
+.GridRestaurant .MenuCard {
+  margin-bottom: 17px;
 }
 .GridRestaurant .ImgCard {
   grid-column: 1/3;
@@ -265,6 +268,8 @@ header h1 img {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  right: 20px;
 }
 .GridRestaurant .Card {
   grid-row: 2/3;

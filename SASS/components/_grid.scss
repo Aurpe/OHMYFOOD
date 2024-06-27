@@ -5,12 +5,22 @@ $policeColorCard: #008766;
   padding: 20px;
   background-color: $bgColorGrid;
 
-    .a {
-    display: grid;
+  .RestaurantCard{
+    
+    a {
+      display: grid;
     grid-template-columns: 75% 25%;
     grid-template-rows: 75% 25%;
+   
     }
-    
+
+   }
+
+   .MenuCard{
+
+    margin-bottom:17px;
+   }
+
     .ImgCard {
       grid-column: 1/3;
       grid-row: 1/2;
@@ -43,6 +53,8 @@ $policeColorCard: #008766;
       display: flex;
       align-items: center;
       justify-content: center;
+      position: relative;
+      right: 20px;
     }
 
     .Card {
