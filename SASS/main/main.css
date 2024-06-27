@@ -7,16 +7,6 @@ body {
   margin: 0;
 }
 
-:root {
-  --main-color: $color-main;
-  --second-color: $color-second;
-  --third-color: $color-third;
-}
-
-.TitleResto .Logo {
-  font-family: "Shrikhand", sans-serif;
-}
-
 header {
   display: flex;
   align-items: center;
@@ -351,6 +341,9 @@ h1 img {
      object-fit: cover;
 }
 
+.fa-regular .fa-heart {
+  margin-left: 20px;
+}
 
 .TitleResto .entrees .plat .desserts {
   margin-bottom: 40px;
@@ -370,37 +363,13 @@ h1 img {
   font-weight: bold;
   justify-content: center;
   align-items: center;
-  font-family: font-logo;
+  font-family: Shrikhand;
 }
 
-.TitleMenu {
+.Appetizer {
   margin: 12px;
   font-size: 18px;
   font-weight: 200;
-}
-.TitleResto {
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 28px;
-  font-weight: bold;
-  justify-content: center;
-  align-items: center;
-  font-family: font-logo;
-}
-.HeartMenu {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-left: 20px;
-}
-
-.Line {
-  border: 1px solid;
-  width: 40px;
-  color: #99E2D0;
-  margin-left: 10px;
-  margin-bottom: 12px;
-  margin-top: -10px;
 }
 
 .CardContent {
@@ -419,7 +388,7 @@ h1 img {
   overflow: hidden;
 }
 
-.CardNS {
+.NS {
   width: 100%;
 }
 
