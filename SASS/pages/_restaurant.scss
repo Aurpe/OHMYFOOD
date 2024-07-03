@@ -53,18 +53,17 @@ h1 img{
 
 #CustomFont{
   font-family: "Shrikhand";
-  margin-top: 50px;
-  font-size:18px;
+ font-size:28px;
 }
 
-.HeartMenu {
+.HeartTitle {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-left: 20px;
 }
 
-.Line {
+.LineMenu {
   border: 1px solid;
   width: 40px;
   color: #99E2D0;
@@ -155,11 +154,15 @@ footer img {
 
 }
 
-.logo{
-  font-family: Shrikhand;
+.LogoMenu{
+  font-family: "Shrikhand";
   font-weight: bold;
   font-size: 18px;
   color: white;
+  position: absolute;
+  right: 5px;
+  margin-right: 20px;
+  margin-top: 45px;
 }
 
 .fa-solid .fa-utensils .fa-handshake-angle{

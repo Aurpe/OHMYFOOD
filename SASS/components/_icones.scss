@@ -21,14 +21,15 @@ $colorIconsCheck:#99E2D0;
     }
   
     .IconsArrow {
-      height: 30px;
-      width: 30px;
-      margin: 10px;
-      $color-black: black;
-      display: flex;
-      align-items: center;
-      position: absolute;
-      left: 30px;
+     height: 30px;
+     width: 30px;
+     color: black;
+     display: flex;
+     position: absolute;
+     left: 30px;
+     flex-wrap: wrap;
+     margin-bottom: 10px;
+  
     }
   
   .IconsCheck {

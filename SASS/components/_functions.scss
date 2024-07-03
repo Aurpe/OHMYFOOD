@@ -12,7 +12,8 @@ $bgcolorFunction: #F2F2F2;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    max-width: 1440px;
+    min-width: 300px;
 
     p {
       font-size: 16px;

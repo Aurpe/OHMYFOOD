@@ -1,4 +1,5 @@
-******** restaurants********* .header {
+******** restaurants********* 
+.header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -53,7 +54,7 @@ h1 img {
   font-weight: 200;
 }
 
-.HeartTitle {
+.HeartMenu {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -142,11 +143,15 @@ footer img {
   color: white;
 }
 
-.logo {
-  font-family: Shrikhand;
+.LogoMenu{
+  font-family: "Shrikhand";
   font-weight: bold;
   font-size: 18px;
   color: white;
+  position: absolute;
+  right: 5px;
+  margin-right: 20px;
+  margin-top: 40px;
 }
 
 .fa-solid .fa-utensils .fa-handshake-angle {

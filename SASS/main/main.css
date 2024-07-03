@@ -127,7 +127,7 @@ header h1 img {
 }
 
 .BtnRounded :hover {
-  background: linear-gradient(358deg, #9356DC, #FF79DA, white);
+  background: linear-gradient(158deg, #9356DC, #FF79DA, white);
 }
 
 .BtnRounded {
@@ -145,7 +145,7 @@ header h1 img {
   text-align: center;
 }
 .BtnRounded:hover {
-  background: linear-gradient(358deg, #9356DC, #FF79DA, white);
+  background: linear-gradient(158deg, #9356DC, #FF79DA, white);
 }
 
 .IconsFunction {
@@ -170,11 +170,12 @@ header h1 img {
 .IconsArrow {
   height: 30px;
   width: 30px;
-  margin: 10px;
+  color: black;
   display: flex;
-  align-items: center;
   position: absolute;
   left: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
 }
 
 .IconsCheck {
@@ -197,7 +198,8 @@ header h1 img {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  max-width: 1440px;
+  min-width: 300px;
 }
 .Function .function-first p {
   font-size: 16px;
@@ -255,7 +257,7 @@ header h1 img {
   position: relative;
   top: -60px;
   left: 80%;
-  width: 100%;
+  width: 20%;
 }
 .GridRestaurant .NewCard {
   font-weight: 500;
@@ -538,6 +540,8 @@ input[type=checkbox]:checked ~ .FilledHeart {
     position: absolute;
     right: 5px;
     margin-right: 20px;
+    margin-top: 50px;
+    font-family: "Shrikhand";
   }
   .MainFooter {
     margin-right: 12%;
@@ -645,18 +649,17 @@ h1 img {
 
 #CustomFont {
   font-family: "Shrikhand";
-  margin-top: 50px;
-  font-size: 18px;
+  font-size: 28px;
 }
 
-.HeartMenu {
+.HeartTitle {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-left: 20px;
 }
 
-.Line {
+.LineMenu {
   border: 1px solid;
   width: 40px;
   color: #99E2D0;
@@ -743,11 +746,15 @@ footer img {
   color: white;
 }
 
-.logo {
-  font-family: Shrikhand;
+.LogoMenu {
+  font-family: "Shrikhand";
   font-weight: bold;
   font-size: 18px;
   color: white;
+  position: absolute;
+  right: 5px;
+  margin-right: 20px;
+  margin-top: 45px;
 }
 
 .fa-solid .fa-utensils .fa-handshake-angle {
