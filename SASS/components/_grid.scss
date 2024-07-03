@@ -1,5 +1,6 @@
 $bgColorGrid:#F6F6F6;
 $policeColorCard: #008766;
+$color-third: #99E2D0;
 
 .GridRestaurant {
   padding: 20px;
@@ -39,6 +40,7 @@ $policeColorCard: #008766;
       position:relative;
       top:-60px;
       left:80%;
+      width:100%;
     }
 
     .NewCard {

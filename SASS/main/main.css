@@ -1,10 +1,10 @@
+/****** General ***********/
 * {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
 }
 
 body {
-  margin: 0;
+  margin: auto;
 }
 
 header {
@@ -127,7 +127,7 @@ header h1 img {
 }
 
 .BtnRounded :hover {
-  background: linear-gradient(158deg, #9356DC, #FF79DA);
+  background: linear-gradient(358deg, #9356DC, #FF79DA, white);
 }
 
 .BtnRounded {
@@ -145,7 +145,7 @@ header h1 img {
   text-align: center;
 }
 .BtnRounded:hover {
-  background: linear-gradient(158deg, #9356DC, #FF79DA);
+  background: linear-gradient(358deg, #9356DC, #FF79DA, white);
 }
 
 .IconsFunction {
@@ -255,6 +255,7 @@ header h1 img {
   position: relative;
   top: -60px;
   left: 80%;
+  width: 100%;
 }
 .GridRestaurant .NewCard {
   font-weight: 500;
@@ -307,16 +308,18 @@ footer {
   color: white;
   height: 186px;
 }
-footer .IconsFooter {
+
+.IconsFooter {
   margin-bottom: 10px;
 }
-footer .logo {
-  font-family: "Shrikhand", sans-serif;
+
+.logo {
   font-weight: bold;
   font-size: 18px;
   color: white;
 }
-footer a {
+
+a {
   text-decoration: none;
   color: white;
   font-size: 16px;
@@ -398,7 +401,7 @@ input[type=checkbox]:checked ~ .FilledHeart {
     transform: translateY(0px);
   }
 }
-.CheckMark, .CardContent, .NS, .Price {
+.CheckMark, .CardContent, .CardNS, .Price {
   transition: all 0.4s ease-in-out;
 }
 
@@ -530,17 +533,15 @@ input[type=checkbox]:checked ~ .FilledHeart {
   footer a {
     margin-right: 20px;
   }
-  .logo {
-    font-family: "Shrikand", sans-serif;
-    font-weight: bold;
+  .Logo {
     font-size: 18px;
     position: absolute;
     right: 5px;
     margin-right: 20px;
   }
   .MainFooter {
-    margin-bottom: 10px;
-    margin-left: 35%;
+    margin-right: 12%;
+    margin-top: 45px;
   }
   .IconsFooter.TxtFooter {
     margin-right: 20px;
@@ -623,6 +624,7 @@ h1 img {
   border-radius: 47px 47px 0px 0px;
   position: relative;
   z-index: 3;
+  color: black;
 }
 
 .TitleResto {
@@ -639,6 +641,12 @@ h1 img {
   margin: 12px;
   font-size: 18px;
   font-weight: 200;
+}
+
+#CustomFont {
+  font-family: "Shrikhand";
+  margin-top: 50px;
+  font-size: 18px;
 }
 
 .HeartMenu {
@@ -707,6 +715,11 @@ h1 img {
   margin-bottom: 1px;
 }
 
+a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
 .Btn {
   display: flex;
   flex-direction: row;
@@ -739,12 +752,6 @@ footer img {
 
 .fa-solid .fa-utensils .fa-handshake-angle {
   color: white;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  font-size: 16px;
 }
 
 .BtnRounded .a:hover {

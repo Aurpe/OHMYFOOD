@@ -31,6 +31,7 @@ h1 img{
     border-radius: 47px 47px 0px 0px;
     position: relative;
     z-index: 3;
+    color:black;
 }
 
 .TitleResto {
@@ -48,6 +49,12 @@ h1 img{
   margin:12px;
   font-size:18px;
   font-weight:200;
+}
+
+#CustomFont{
+  font-family: "Shrikhand";
+  margin-top: 50px;
+  font-size:18px;
 }
 
 .HeartMenu {
@@ -80,6 +87,7 @@ h1 img{
   justify-content: space-between;
   filter: drop-shadow(2px 4px 6px grey);
   overflow:hidden;
+  
 }
 
 .CardNS{
@@ -118,6 +126,10 @@ h1 img{
   margin-bottom:1px;
 }
 
+a {
+  text-decoration: none;
+  font-size:16px;
+}
 .Btn{
   display: flex;
   flex-direction: row;
@@ -154,11 +166,6 @@ footer img {
   color:white;
 }
 
-a {
-  text-decoration: none;
-  color:white;
-  font-size:16px;
-}
 
 .BtnRounded .a:hover{
   background: linear-gradient(158deg, #9356DC, #FF79DA);

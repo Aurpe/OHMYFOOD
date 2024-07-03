@@ -1,9 +1,18 @@
  
-$font-main: "Roboto", sans-serif;
-$font-logo: "Shrikhand",sans-serif;
-$color-main: #9356DC;
-$color-second: #FF79DA;
-$color-third: #99E2D0;
+/****** General ***********/
+
+
+*{
+  font-family: "Roboto", sans-serif;
+}
+
+
+:root {
+  $color-main: #9356DC;
+  $color-second: #FF79DA;
+  $color-third: #99E2D0;
+}
+
 $color-gray: #EAEAEA;
 $color-background: #F2F2F2;
 $color-white: white;
@@ -14,13 +23,8 @@ $bgColorGrid:#F6F6F6;
 $policeColorCard: #008766;
 
 
-* {
-  font-family: $font-main;
-  font-style: normal;
-}
-
 body {
-  margin: 0;
+  margin: auto;
 }
 
 

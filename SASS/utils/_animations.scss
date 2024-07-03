@@ -80,7 +80,7 @@ input[type=checkbox]:checked ~ .FilledHeart {
     }
 }
 
-.CheckMark, .CardContent, .NS, .Price {
+.CheckMark, .CardContent, .CardNS, .Price {
     transition: all 0.4s ease-in-out;
 }
 
