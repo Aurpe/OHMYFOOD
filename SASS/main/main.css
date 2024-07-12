@@ -127,7 +127,7 @@ header h1 img {
 }
 
 .BtnRounded :hover {
-  background: linear-gradient 0deg, 255, 255, 255, 15 0%, 255, 255, 255, 15 100%, 201deg #9356DC -5, 2%, #FF79DA 110%;
+  background: linear-gradient(0deg, rgba 255, 255, 255, 15), 0% 100deg, rgba 255, 255, 255, 15 100%, 201deg #9356DC -5, 2%, #FF79DA 110%;
 }
 
 .BtnRounded {
@@ -145,7 +145,7 @@ header h1 img {
   text-align: center;
 }
 .BtnRounded:hover {
-  background: linear-gradient 0deg, 255, 255, 255, 15 0%, 255, 255, 255, 15 100%, 201deg #9356DC -5, 2%, #FF79DA 110%;
+  background: linear-gradient(0deg, rgba 255, 255, 255, 15), 0% 100deg, rgba 255, 255, 255, 15 100%, 201deg #9356DC -5, 2%, #FF79DA 110%;
 }
 
 .IconsFunction {
