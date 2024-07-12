@@ -9,11 +9,13 @@
     justify-content: center;
   }
 
+
   .BtnRounded {
     width: 218px;
     margin-top: 18px;
     margin-bottom: 30px;
     font-size: 16px;
+    margin-top:-15px;
   }
 
   .container-title {
@@ -35,6 +37,10 @@
     .location {
       height: 19px;
     }
+  }
+
+  .TitleFunction{
+    margin-left:5%
   }
 
   .Function {
@@ -76,12 +82,14 @@
     margin: auto;
   }
 
+
   .GridRestaurant {
-    padding: 0 180px;
+    padding: 20px 180px;
   }
 
   .GridRestaurant h2 {
     margin-bottom: 28px;
+    margin-left:5%
   }
 
   .ContainerMenu {
@@ -91,9 +99,20 @@
     flex-direction: row;
     column-gap: 100px;
     row-gap: 50px;
-    
+    align-items: center;
+    justify-content: center;
   }
 
+  .Subtitle {
+    margin-top: 1px;
+    font-size: 15px;
+  }
+
+  .Name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 1px;
+  }
 
   footer {
     display: flex;
@@ -120,7 +139,9 @@
   }
 
   .MainFooter {
-    margin-right: 12%;
+    display:flex;
+    flex-direction: row;
+    margin-left: 32%;
     margin-top: 45px;
   }
 

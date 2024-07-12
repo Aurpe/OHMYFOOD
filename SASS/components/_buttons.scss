@@ -1,6 +1,6 @@
 
 $ColorButton: linear-gradient(358deg, #9356DC, #FF79DA);
-$ColorButton2:linear-gradient(158deg, #9356DC, #FF79DA,#FFFF);
+$ColorButton2:linear-gradient (0deg,255,255,255,015) 0%, ( 255,255,255,015) 100%,(201deg #9356DC -5,2%, #FF79DA 110%);
 
 
 .BtnRounded {
@@ -26,7 +26,7 @@ $ColorButton2:linear-gradient(158deg, #9356DC, #FF79DA,#FFFF);
       color: $color-white;
       font-weight: bold;
       height: 50px;
-      width: 65%;
+      width: 70%;
       margin: 30px 0 40px;
       font-size: 16px;
       border: none;

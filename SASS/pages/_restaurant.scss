@@ -61,6 +61,7 @@ h1 img{
   align-items: center;
   justify-content: space-between;
   margin-left: 20px;
+  justify-content: space-around;
 }
 
 .LineMenu {
@@ -86,24 +87,33 @@ h1 img{
   justify-content: space-between;
   filter: drop-shadow(2px 4px 6px grey);
   overflow:hidden;
+  display:flex;
+  align-items: center;
   
 }
 
 .CardNS{
   width: 100%;
+  
 }
 
 
 .Subtitle{
   margin-top: 1px;
   font-size:15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 
 .Price{
   font-weight:bold;
   font-size:15px;
-  margin-right:20px;
+  margin-left:45px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top:35px;
 }
 
 .CheckMark{
@@ -123,12 +133,11 @@ h1 img{
   font-size:18px;
   font-weight: bold;
   margin-bottom:1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-a {
-  text-decoration: none;
-  font-size:16px;
-}
 .Btn{
   display: flex;
   flex-direction: row;
@@ -139,13 +148,6 @@ a {
 
 }
 
-footer {
-  display: flex;
-  flex-direction: column;
-  background-color: #353535;
-  padding:10px;
-  color:white;
-}
 
 footer img {
   height: 27px;
@@ -153,6 +155,8 @@ footer img {
   color:white;
 
 }
+
+
 
 .LogoMenu{
   font-family: "Shrikhand";
@@ -170,31 +174,11 @@ footer img {
 }
 
 
+
 .BtnRounded .a:hover{
   background: linear-gradient(158deg, #9356DC, #FF79DA);
   height:50px;
 }
 
 
-.container-title {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  align-items: center;
-  background-color: #F2F2F2;
-  padding: 10px;
-}
-
-.container-title h2 {
-  width: 70%;
-  font-weight: bold;
-  font-size: 24px;
-  text-align: center;
-}
-
-.container-title h3 {
-  text-align: center;
-  margin-bottom: 30px;
-  font-weight: lighter;
-}
 
