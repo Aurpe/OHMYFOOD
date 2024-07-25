@@ -133,9 +133,14 @@ input[type=checkbox]:checked ~ .FilledHeart {
 }
 
 
-.Menu:hover .CardNS{
+.CardContent:hover .Price {
+    transform: translateX(-40px);
+}
+
+.CardContent:hover .CardNS{
     max-width: calc(100% - 110px);
 }
+
 
 
  
