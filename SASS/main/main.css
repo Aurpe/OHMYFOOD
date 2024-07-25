@@ -127,7 +127,7 @@ header h1 img {
 }
 
 .BtnRounded :hover {
-  background: linear-gradient(0deg, rgba 255, 255, 255, 15), 0% 100deg, rgba 255, 255, 255, 15 100%, 201deg #9356DC -5, 2%, #FF79DA 110%;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), linear-gradient(201deg, #9356DC -5.2%, #FF79DA 110.74%);
 }
 
 .BtnRounded {
@@ -145,7 +145,7 @@ header h1 img {
   text-align: center;
 }
 .BtnRounded:hover {
-  background: linear-gradient(0deg, rgba 255, 255, 255, 15), 0% 100deg, rgba 255, 255, 255, 15 100%, 201deg #9356DC -5, 2%, #FF79DA 110%;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), linear-gradient(201deg, #9356DC -5.2%, #FF79DA 110.74%);
 }
 
 .IconsFunction {
@@ -562,6 +562,7 @@ input[type=checkbox]:checked ~ .FilledHeart {
     margin-right: 20px;
     margin-top: 50px;
     font-family: "Shrikhand";
+    margin-bottom: 1px;
   }
   .MainFooter {
     display: flex;
