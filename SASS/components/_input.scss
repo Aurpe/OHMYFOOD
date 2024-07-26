@@ -1,5 +1,5 @@
- $BgcolorInput:#EAEAEA;
- $color-gray: #EAEAEA;
+$BgcolorInput:#EAEAEA;
+
 
 .input-first {
   background-color:$BgcolorInput;
@@ -35,7 +35,7 @@
 
 
 .input-first {
-  background-color: $color-gray;
+  background-color: $BgcolorInput;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,7 +64,4 @@
   font-weight: normal;
 }
 
-    
-     
 
-    

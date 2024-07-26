@@ -114,7 +114,7 @@ header h1 img {
 
 .BtnRounded {
   border-radius: 25px;
-  background: linear-gradient(358deg, #9356DC, #FF79DA);
+  background: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   color: white;
   font-weight: bold;
   height: 50px;
