@@ -1,4 +1,8 @@
 $bgcolorFunction: #F2F2F2;
+$font-logo: 'Shrikand';
+$bg-color:#9356DC;
+$colorFunction:white;
+
 
 .Function {
   padding: 20px;
@@ -32,10 +36,10 @@ $bgcolorFunction: #F2F2F2;
     justify-content: center;
     align-items: center;
     height: 24px;
-    background-color: #9356DC;
+    background-color: $bg-color;
     border: none;
     font-weight: bold;
-    color: white;
+    color: $colorFunction;
   }
 
   .IconsFunction {

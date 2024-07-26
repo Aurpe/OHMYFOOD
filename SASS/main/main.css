@@ -575,7 +575,7 @@ input[type=checkbox]:checked ~ .FilledHeart {
   justify-content: center;
   align-items: center;
   z-index: 1000;
-  animation: FadeOut 5ms forwards;
+  animation: FadeOut 3s forwards;
 }
 .Loader .spinner {
   width: 56px;
@@ -767,6 +767,6 @@ footer img {
 }
 
 .BtnRounded .a:hover {
-  background: linear-gradient(158deg, #9356DC, #FF79DA);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), linear-gradient(201deg, #9356DC -5.2%, #FF79DA 110.74%);
   height: 50px;
 }/*# sourceMappingURL=main.css.map */
