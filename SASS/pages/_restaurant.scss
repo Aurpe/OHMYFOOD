@@ -1,14 +1,32 @@
-
-********restaurants*********
-
-
-
-.header {
+@mixin flex-row-center($wrap: nowrap) {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: $wrap;
   align-items: center;
   justify-content: center;
+}
+
+@mixin flex-space-evenly {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@mixin flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  @include flex-row-center(wrap);
 
   h1 {
     img {
@@ -28,20 +46,17 @@
 }
 
 .TitleResto {
+  @include flex-space-evenly;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: font-logo;
+  margin-left: 10px;
+
   .entrees,
   .plat,
   .desserts {
     margin-bottom: 40px;
   }
-  
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 28px;
-  font-weight: bold;
-  justify-content: space-evenly;
-  align-items: center;
-  font-family: font-logo;
-  margin-left: 10px;
 }
 
 .Menu {
@@ -58,8 +73,7 @@
   }
 
   .HeartTitle {
-    display: flex;
-    align-items: center;
+    @include flex-row-center;
     margin-left: 10px;
     justify-content: flex-end;
   }
@@ -75,28 +89,24 @@
 }
 
 #CustomFont {
-  font-family: "Shrikhand";  
+  font-family: "Shrikhand";
   font-size: 28px;
   font-weight: normal;
   margin-right: 30px;
 }
 
 .CardContent {
-  border: solid 1px white;
-  border-radius: 15px;
   background-color: white;
-  height: 69px;
-  align-items: flex-end;
-  padding-left: 10px;
-  width: auto;
-  padding-right: 10px;
-  margin: 10px;
+  border: 1px solid white;
+  border-radius: 15px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  padding: 0 10px;
+  margin: 10px;
   filter: drop-shadow(2px 4px 6px grey);
   overflow: hidden;
-  display: flex;
-  align-items: center;
 
   .CardNS {
     width: 100%;
@@ -121,15 +131,11 @@
   }
 
   .CheckMark {
+    @include flex-column-center;
     height: 100%;
     width: 71px;
     background-color: #99E2D0;
     margin-right: -82px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
     border-radius: 0px 15px 15px 0px;
   }
 
@@ -144,11 +150,7 @@
 }
 
 .Btn {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
+  @include flex-row-center;
   margin-top: 40px;
 }
 
@@ -179,8 +181,8 @@ footer {
 }
 
 .BtnRounded {
-  .a:hover {
-    background:linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), linear-gradient(201deg, #9356DC -5.2%, #FF79DA 110.74%);
+  a:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), linear-gradient(201deg, #9356DC -5.2%, #FF79DA 110.74%);
     height: 50px;
   }
 }

@@ -1,37 +1,57 @@
-$colorIconsFunction:#7E7E7E;
+$colorIconsFunction: #7E7E7E;
+$colorIconsCheck: #99E2D0;
+$color-hover: #9356DC;
 $color-black: black;
-$colorIconsCheck:#99E2D0;
 
-  .IconsFunction {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    color: $colorIconsFunction;
+@mixin flex-wrap-center {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+@mixin flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.IconsFunction {
+  @include flex-wrap-center;
+  color:$colorIconsFunction;
+
+  &:hover {
+    color: $color-hover;
   }
-    .IconsFunction:hover {
-      color: #9356DC;
-    }
-  
-    .IconsInput {
-      height: 16px;
-      width: 12px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-  
-    .IconsArrow {
-     height: 30px;
-     width: 30px;
-     color: black;
-     margin-bottom: -30px;
-  
-    }
-  
-  .IconsCheck {
-    border-radius: 50%;
-    border: 1px solid white;
-    padding: 2px;
-    color: $colorIconsCheck;
-    background: white;
-  }
+}
+
+.IconsInput {
+  height: 16px;
+  width: 12px;
+  @include flex-column-center;
+}
+
+.IconsArrow {
+  height: 30px;
+  width: 30px;
+  color: $color-black;
+  margin-bottom: -30px;
+  @include flex-center;
+}
+
+.IconsCheck {
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 2px;
+  color: $colorIconsCheck;
+  background: white;
+  @include flex-center;
+}
+
+.IconsFooter {
+  margin-right: 5px;
+}

@@ -136,7 +136,6 @@ header h1 img {
   align-content: center;
   color: #7E7E7E;
 }
-
 .IconsFunction:hover {
   color: #9356DC;
 }
@@ -154,6 +153,8 @@ header h1 img {
   width: 30px;
   color: black;
   margin-bottom: -30px;
+  display: flex;
+  justify-content: center;
 }
 
 .IconsCheck {
@@ -162,6 +163,12 @@ header h1 img {
   padding: 2px;
   color: #99E2D0;
   background: white;
+  display: flex;
+  justify-content: center;
+}
+
+.IconsFooter {
+  margin-right: 5px;
 }
 
 .Function {
@@ -306,6 +313,10 @@ a {
   margin-bottom: 10px;
 }
 
+.IconsFooter {
+  margin-right: 5px;
+}
+
 input[type=checkbox] {
   opacity: 0;
   z-index: 4;
@@ -438,19 +449,18 @@ input[type=checkbox]:checked ~ .FilledHeart {
 
 @media screen and (min-width: 1024px) {
   header {
-    height: 96px;
     display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
     flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
     justify-content: center;
+    height: 96px;
   }
   .BtnRounded {
     width: 218px;
-    margin-top: 18px;
+    margin-top: -15px;
     margin-bottom: 30px;
     font-size: 16px;
-    margin-top: -15px;
   }
   .container-title h2 {
     height: 47px;
@@ -472,17 +482,17 @@ input[type=checkbox]:checked ~ .FilledHeart {
   .Function {
     padding: 50px 180px;
   }
-  .FunctionCard {
-    display: flex;
-    justify-content: space-around;
-  }
   .Function.function-first {
     width: 30%;
   }
-  .IconsFunction {
-    margin-left: 15px;
+  .Function .FunctionCard {
+    display: flex;
+    justify-content: space-around;
   }
   .Function .function-first p {
+    margin-left: 15px;
+  }
+  .IconsFunction {
     margin-left: 15px;
   }
   .MenuCard {
@@ -508,14 +518,13 @@ input[type=checkbox]:checked ~ .FilledHeart {
   }
   .ContainerMenu {
     display: flex;
-    width: 100%;
     flex-wrap: wrap;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     -moz-column-gap: 100px;
          column-gap: 100px;
     row-gap: 50px;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
   }
   .Subtitle {
     margin-top: 1px;
@@ -529,18 +538,21 @@ input[type=checkbox]:checked ~ .FilledHeart {
   footer {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
     flex-wrap: wrap;
+    align-items: flex-end;
     justify-content: center;
     height: 114px;
+  }
+  footer a {
+    margin-right: 20px;
+  }
+  footer .img {
+    color: white;
   }
   .IconsArrow {
     position: absolute;
     left: 10px;
     margin-top: -10px;
-  }
-  footer a {
-    margin-right: 20px;
   }
   .Logo {
     font-size: 18px;
@@ -559,9 +571,6 @@ input[type=checkbox]:checked ~ .FilledHeart {
   }
   .IconsFooter.TxtFooter {
     margin-right: 20px;
-  }
-  .footer .img {
-    color: white;
   }
 }
 .Loader {
@@ -606,14 +615,14 @@ input[type=checkbox]:checked ~ .FilledHeart {
   opacity: 1;
 }
 
-******** restaurants********* .header {
+.header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
-******** restaurants********* .header h1 img {
+.header h1 img {
   height: 36px;
 }
 
@@ -630,11 +639,10 @@ input[type=checkbox]:checked ~ .FilledHeart {
 
 .TitleResto {
   display: flex;
-  flex-wrap: wrap;
-  font-size: 28px;
-  font-weight: bold;
   justify-content: space-evenly;
   align-items: center;
+  font-size: 28px;
+  font-weight: bold;
   font-family: font-logo;
   margin-left: 10px;
 }
@@ -658,7 +666,10 @@ input[type=checkbox]:checked ~ .FilledHeart {
 }
 .Menu .HeartTitle {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: center;
+  justify-content: center;
   margin-left: 10px;
   justify-content: flex-end;
 }
@@ -679,21 +690,17 @@ input[type=checkbox]:checked ~ .FilledHeart {
 }
 
 .CardContent {
-  border: solid 1px white;
-  border-radius: 15px;
   background-color: white;
-  height: 69px;
-  align-items: flex-end;
-  padding-left: 10px;
-  width: auto;
-  padding-right: 10px;
-  margin: 10px;
+  border: 1px solid white;
+  border-radius: 15px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  padding: 0 10px;
+  margin: 10px;
   filter: drop-shadow(2px 4px 6px grey);
   overflow: hidden;
-  display: flex;
-  align-items: center;
 }
 .CardContent .CardNS {
   width: 100%;
@@ -715,15 +722,14 @@ input[type=checkbox]:checked ~ .FilledHeart {
   margin-right: 15px;
 }
 .CardContent .CheckMark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   width: 71px;
   background-color: #99E2D0;
   margin-right: -82px;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
   border-radius: 0px 15px 15px 0px;
 }
 .CardContent .Name {
@@ -739,8 +745,8 @@ input[type=checkbox]:checked ~ .FilledHeart {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   margin-top: 40px;
 }
 
@@ -766,7 +772,7 @@ footer img {
   color: white;
 }
 
-.BtnRounded .a:hover {
+.BtnRounded a:hover {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), linear-gradient(201deg, #9356DC -5.2%, #FF79DA 110.74%);
   height: 50px;
 }/*# sourceMappingURL=main.css.map */
